@@ -3,10 +3,8 @@ title: Eric Ellenbrook - Web Developer Based in Detroit
 author: Eric Ellenbrook
 email: ericellenbrook@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+  Eric Ellenbrook is a web developer based out of Detroit Michigan. Follow him on Twitter at @_ellenbrook
+url: "http://ellenbrook.github.io" # the base hostname & protocol for your site
 twitter_username: _ellenbrook
 github_username:  ellenbrook
 
