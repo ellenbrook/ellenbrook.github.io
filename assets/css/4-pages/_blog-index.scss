@@ -1,0 +1,44 @@
+.blogList {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid $textColor;
+	cursor: pointer;
+
+	&:hover .blogList-title, &:hover .blogList-subTitle {
+		@include transition(0.3s ease-in-out);
+		margin-left: 10px;
+
+		a {
+			color: $textColor;
+		}
+	}
+
+	.blogList-title {
+		float: left;
+		margin: modular-scale($baseFontSize, -3, $major-second) 0;
+		padding: 0;
+		border: none;
+		text-indent: 0;
+		@include transition(margin-left 0.3s ease-out);
+	}
+
+	.blogList-subTitle {
+		clear: left;
+		float: left;
+		margin: 0;
+		font-size: modular-scale($baseFontSize, 0, $major-second);
+		@include transition(margin-left 0.3s ease-out);
+	}
+
+	.svg {
+		width: 50px;
+		margin: 25px 0;
+		float: right;
+		fill: $textColor;
+
+		&:hover {
+			fill: $callToAction;
+		}
+	}
+}

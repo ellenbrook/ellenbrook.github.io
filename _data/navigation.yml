@@ -1,0 +1,14 @@
+- name: about.svg
+  alt: About Eric Ellenbrook
+  link: about
+  heading: About
+
+- name: work.svg
+  alt: Eric Ellenbrook's Work
+  link: work
+  heading: Work
+
+- name: blog.svg
+  alt: Eric Ellenbrook's BLog
+  link: blog
+  heading: Blog

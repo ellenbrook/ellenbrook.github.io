@@ -1,0 +1,25 @@
+.post-share {
+	@include span-columns(2);
+
+	.post-shareHeader {
+		@extend .authorName;
+		margin-bottom: modular-scale($baseFontSize, -3, $major-second);
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		margin: 0;
+		
+		li{
+			margin-right: modular-scale($baseFontSize, -4, $major-second);
+			padding: modular-scale($baseFontSize, -4, $major-second) 0;
+			font-size: modular-scale($baseFontSize, -3, $major-second);
+			border-top: 1px solid $textColor;
+
+			&:last-child {
+				border-bottom: 1px solid $textColor;
+			}
+		}
+	}
+}

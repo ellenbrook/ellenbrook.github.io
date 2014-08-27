@@ -1,0 +1,11 @@
+.siteFooter {
+	@include clearfix;
+	@include span-columns(12);
+	@include omega();
+	padding: 1em 0;
+	border-top: 1px solid $textColor;
+
+	p {
+		margin-top: 0;
+	}
+}

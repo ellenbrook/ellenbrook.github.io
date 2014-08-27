@@ -1,0 +1,11 @@
+    {% include header.html %}
+  <div class="container">
+		{% for post in site.posts %}
+    <div class="blogList">
+        <a href="{{ post.url }}" title="{{ post.title }}"><img src="/assets/img/right-arrow.svg" class="svg"></a>
+        <h2 class="blogList-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <h3 class="blogList-subTitle">Posted by {{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</h3>
+    </div>
+    {% endfor %}
+    {% include footer.html %}
+  </div>

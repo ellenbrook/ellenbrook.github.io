@@ -1,0 +1,12 @@
+{% include header.html %}
+ <div class="container">
+	<section class="post">
+	 <h2 class="post-postTitle">{{ page.title }}</h2>
+	 {{ page.excerpt }}
+	 {% include share.html %}
+	 <div class="post-postBody">
+	 	{{ content | remove: page.excerpt }}
+	 </div>
+    </section>
+{% include footer.html %}
+</div>

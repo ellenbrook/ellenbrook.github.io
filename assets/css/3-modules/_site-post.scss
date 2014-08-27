@@ -1,0 +1,33 @@
+.post {
+	@include span-columns(12);
+	@include omega();
+	
+	p {
+		font-size: modular-scale($baseFontSize, 1, $major-second);
+		line-height: modular-scale($baseFontSize, 6, $major-second);
+	}
+
+	li {
+		color: $textColor;
+		font-size: 1.2em;
+	}
+
+	.post-postTitle {
+		font-size: modular-scale($baseFontSize, 6, $major-second);
+		padding: 0;
+	}
+
+	.post-postBody {
+		@include span-columns(8);
+
+		p {
+			font-size: modular-scale($baseFontSize, 0, $major-second);
+			margin-top: modular-scale($baseFontSize, 0, $major-second);
+			line-height: modular-scale($baseFontSize, 4, $major-second);
+
+			&:first-of-type {
+				margin-top: 0;
+			}
+		}
+	}
+}

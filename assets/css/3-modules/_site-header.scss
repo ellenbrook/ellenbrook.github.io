@@ -1,0 +1,68 @@
+.siteHeader {
+	@include span-columns(12);
+	@include omega();
+	margin-top: 2em;
+
+	.siteHeader-logo {
+		@include span-columns(6);
+		font-family: $standardFont;
+
+
+		h1 { 
+			margin-bottom: 0;
+			font-family: $standardFont;
+			font-size: modular-scale($baseFontSize, 9, $major-second); 
+			word-spacing: -10px;
+			letter-spacing: -1px;
+			text-transform: lowercase;
+
+			a:hover {
+				color: $callToAction;
+			}
+		}
+
+		h2 {
+			margin-top: 0;
+			border: none;
+			text-indent: 0;
+			font-size: modular-scale($baseFontSize, -1, $major-second); 
+			font-family: $standardFont;
+			line-height: .7em;
+			letter-spacing: -1px;
+			word-spacing: 4px;
+			text-transform: uppercase;
+		}
+	}
+
+	.siteHeader-nav {
+		@include span-columns(6);
+		@include omega();
+		
+		.siteHeader-navList {
+			list-style-type: none;
+		    padding: 0;
+		    margin: 3.59em 0 0;
+		    overflow: hidden;
+		    float: right;
+
+			a {
+      			font-size: modular-scale($baseFontSize, 0, $major-third)
+      		}
+
+			> li {
+				display: block;
+				margin: 0 1em;
+      			float: left;
+      			text-transform: uppercase;
+
+				&:last-child {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+}
+
+.butts {
+		@include clearfix;
+}

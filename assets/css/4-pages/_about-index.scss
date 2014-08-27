@@ -1,0 +1,48 @@
+.about-aside {
+	@include span-columns(3);
+	// margin-top: modular-scale($baseFontSize, 2, $major-second);
+
+	img {
+		border-radius: 50%;
+	}
+
+	.authorName {
+		font-family: $headingFont;
+		color: $callToAction;
+		font-size: modular-scale($baseFontSize, 3, $major-second);
+		margin-bottom: modular-scale($baseFontSize, 0, $major-second);
+	}
+
+	.authorBio {
+		font-size: modular-scale($baseFontSize, -2, $major-second);
+		line-height: modular-scale($baseFontSize, 2, $major-second);
+		color: $textColor;
+		font-style: italic;
+		margin: 0;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		
+		li{
+			display: inline-block;
+			margin-right: modular-scale($baseFontSize, -3, $major-second);
+			padding: modular-scale($baseFontSize, -6, $major-second) 0;
+			font-size: modular-scale($baseFontSize, -1, $major-second);
+		}
+
+		.fa {
+			font-size: 1.25em;
+			color: $textColor;
+		}
+	}
+}
+
+.about-section {
+	@include span-columns(9);
+	@include omega();
+
+	.about-section-postTitle {
+	}
+}
