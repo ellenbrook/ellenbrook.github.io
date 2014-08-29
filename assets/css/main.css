@@ -436,7 +436,7 @@ a:hover {
   margin-right: 0;
 }
 .siteFooter p {
-  margin-top: 0;
+  margin-top: .5em;
   float: left;
 }
 .siteFooter .siteFooter-social {
