@@ -4,8 +4,21 @@
 	@include omega();
 	padding: 1em 0;
 	border-top: 1px solid $textColor;
+	overflow: hidden;
 
 	p {
 		margin-top: 0;
+		float: left;
+	}
+
+	.siteFooter-social {
+		float: right;
+
+		.svg {
+			height: 48px;
+			width: 48px;
+			margin: 0;
+			padding: 0;
+		}
 	}
 }

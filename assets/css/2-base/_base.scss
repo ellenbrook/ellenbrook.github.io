@@ -58,3 +58,11 @@ a {
 .highlight {
 	color: $textColor;
 }
+
+.svg {
+	fill: $callToAction;
+
+	&:hover {
+		fill: $textColor;
+	}
+}

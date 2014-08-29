@@ -254,6 +254,13 @@ a:hover {
   color: #4b4a4b;
 }
 
+.svg {
+  fill: #bf3331;
+}
+.svg:hover {
+  fill: #4b4a4b;
+}
+
 .siteHeader {
   float: left;
   display: block;
@@ -418,6 +425,7 @@ a:hover {
   margin-right: 0;
   padding: 1em 0;
   border-top: 1px solid #4b4a4b;
+  overflow: hidden;
 }
 .siteFooter:after {
   content: "";
@@ -429,6 +437,16 @@ a:hover {
 }
 .siteFooter p {
   margin-top: 0;
+  float: left;
+}
+.siteFooter .siteFooter-social {
+  float: right;
+}
+.siteFooter .siteFooter-social .svg {
+  height: 48px;
+  width: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .about-aside {
