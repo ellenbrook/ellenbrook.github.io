@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Ellenbrook - Web Developer Based in Detroit</title>
+    <description>Eric Ellenbrook is a web developer based out of Detroit Michigan. Follow him on Twitter at @_ellenbrook
+</description>
+    <link>http://ellenbrook.github.io/</link>
+    <atom:link href="http://ellenbrook.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 28 Aug 2014 20:43:01 -0400</pubDate>
+    <lastBuildDate>Thu, 28 Aug 2014 20:43:01 -0400</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+  </channel>
+</rss>
