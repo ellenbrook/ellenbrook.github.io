@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: I finally made the switch to Jekyll
 author: Eric Ellenbrook
 ---
@@ -13,5 +12,3 @@ As part of my weekly ritual, I watch [Devtips For Designers](https://www.youtube
 Jekyll is so much more than a trendy CMS. It's safe, fast, secure, and even better, incredibly easy to use. If you're familiar with any sort of MVC framework then you'll have the templating language down, making the only curve the file structure, which is incredibly easy to understand! The most difficult part for me was setting up my Sass file structure. This is my first time using Sass but that's for a different post!
 
 I like the idea of not being on a database driven CMS and I absolutely **love** the idea of writing these posts in Markdown which any Redditor is familiar with already so it seems as if Jekyll is the perfect platform for me. What are your thoughts on Jekyll? [Tweet me at @_ellenbrook on Twitter](https://www.youtube.com/watch?v=nTYP4IZvLWw) and let me know. Cheers.
-
-**Edit**: I just deployed this without writing which layout to use in the front matter. I guess there is a little bit more of a learning curve than I thought. :-)
