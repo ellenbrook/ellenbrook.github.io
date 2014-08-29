@@ -6,8 +6,8 @@
 </description>
     <link>http://ellenbrook.github.io/</link>
     <atom:link href="http://ellenbrook.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Aug 2014 20:48:12 -0400</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2014 20:48:12 -0400</lastBuildDate>
+    <pubDate>Thu, 28 Aug 2014 20:50:13 -0400</pubDate>
+    <lastBuildDate>Thu, 28 Aug 2014 20:50:13 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -22,6 +22,8 @@
 &lt;p&gt;Jekyll is so much more than a trendy CMS. It’s safe, fast, secure, and even better, incredibly easy to use. If you’re familiar with any sort of MVC framework then you’ll have the templating language down, making the only curve the file structure, which is incredibly easy to understand! The most difficult part for me was setting up my Sass file structure. This is my first time using Sass but that’s for a different post!&lt;/p&gt;
 
 &lt;p&gt;I like the idea of not being on a database driven CMS and I absolutely &lt;strong&gt;love&lt;/strong&gt; the idea of writing these posts in Markdown which any Redditor is familiar with already so it seems as if Jekyll is the perfect platform for me. What are your thoughts on Jekyll? &lt;a href=&quot;https://www.youtube.com/watch?v=nTYP4IZvLWw&quot;&gt;Tweet me at @_ellenbrook on Twitter&lt;/a&gt; and let me know. Cheers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: I just deployed this without writing which layout to use in the front matter. I guess there is a little bit more of a learning curve than I thought. :-)&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://ellenbrook.github.io/2014/08/28/I-made-the-move-to-jekyll.html</link>
