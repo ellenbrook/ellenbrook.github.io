@@ -1937,7 +1937,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/24-grille.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/fuse-martial-arts.jpg": {
 		"fileType": 16384,
@@ -1948,7 +1948,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/header-image.jpg": {
 		"fileType": 16384,
@@ -1959,7 +1959,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/header-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/morning-pages.jpg": {
 		"fileType": 16384,
@@ -1970,7 +1970,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/morning-pages.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/js\/functions.js": {
 		"fileType": 64,
