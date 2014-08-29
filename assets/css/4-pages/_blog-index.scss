@@ -27,7 +27,7 @@
 		clear: left;
 		float: left;
 		margin: 0;
-		font-size: modular-scale($baseFontSize, 0, $major-second);
+		font-size: modular-scale($baseFontSize, -1, $major-second);
 		@include transition(margin-left 0.3s ease-out);
 	}
 
