@@ -108,6 +108,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/assets\/img\/24-grille.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71100,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/24-grille.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/24-grille.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/fuse-martial-arts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68709,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/header-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -115,6 +137,17 @@
 		"initialSize": 125838,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/header-image.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/header-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64159,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1895,6 +1928,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/img\/24-grille.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71100,
+		"inputAbbreviatedPath": "\/assets\/img\/24-grille.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/24-grille.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/fuse-martial-arts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68709,
+		"inputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/header-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1902,6 +1957,17 @@
 		"initialSize": 125838,
 		"inputAbbreviatedPath": "\/assets\/img\/header-image.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/header-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/morning-pages.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64159,
+		"inputAbbreviatedPath": "\/assets\/img\/morning-pages.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/morning-pages.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
