@@ -2,6 +2,7 @@ $(function() {
   smoothScroll(500);
   linkToBlogPost();
   setWorkSectionHeight();
+  returnToTop();
 });
 
 function smoothScroll (duration) {
@@ -34,6 +35,35 @@ function setWorkSectionHeight() {
             margin = ((height-200) / 2);
         $(this).find('.workList-container-inner').css({"margin-top": margin+"px", "margin-bottom": margin+"px"});
         });
+}
+
+function returnToTop() {
+    $(window).scroll(function(){
+            // Change this to target a different percentage
+            var targetPercentage = 70;
+            //Change this to set the height of your nav bar so it hides properly. IF you have a box shadow you may have to adjust this number to be height + shadow distance
+            var navBarHeight = 66;
+            //Change this to the ID of the content you are trying to show.
+            var targetID = "#returnToTop";
+            
+            //Window Math
+            var scrollTo = $(window).scrollTop(),
+            docHeight = $(document).height(),
+            windowHeight = $(window).height();
+            scrollPercent = (scrollTo / (docHeight-windowHeight)) * 100;
+            scrollPercent = scrollPercent.toFixed(1);
+
+            if(scrollPercent > targetPercentage) {
+                // $(targetID).css({ display: 'block' });
+                $(targetID).fadeIn( 100 );
+            }
+            
+            if(scrollPercent < targetPercentage) {
+                // $(targetID).css({ display: 'none' });
+                $(targetID).fadeOut( 100 );
+            }
+                                    
+        }).trigger('scroll');
 }
 
 //Converts IMG SVG to inline SVG

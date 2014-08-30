@@ -92,15 +92,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -157,6 +148,17 @@
 		"initialSize": 64159,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/up.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 690,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/up.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/up.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1959,6 +1961,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/up.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 690,
+		"inputAbbreviatedPath": "\/assets\/img\/up.png",
+		"outputAbbreviatedPath": "\/assets\/img\/up.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1987,17 +2000,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/min\/functions-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/functions-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/min\/instantclick.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/min\/instantclick.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/instantclick.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

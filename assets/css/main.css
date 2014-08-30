@@ -449,6 +449,15 @@ a:hover {
   padding: 0;
 }
 
+#returnToTop {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  height: 48px;
+  width: 48px;
+}
+
 .about-aside {
   float: left;
   display: block;
@@ -584,7 +593,7 @@ a:hover {
 }
 .workList .workList-right .workList-container-inner {
   position: relative;
-  width: 300px;
+  width: 267px;
   float: right;
   overflow: hidden;
 }
@@ -596,9 +605,9 @@ a:hover {
 }
 .workList .workList-right .workList-container-inner .workList-container-slider {
   position: absolute;
-  left: -300px;
+  left: -267px;
   top: 0;
-  width: 300px;
+  width: 267px;
   height: 200px;
   background-color: #bf3331;
   color: #e0e0df;
