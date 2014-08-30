@@ -36,4 +36,11 @@
 		margin: 25px 0;
 		float: right;
 	}
+	
+	@include media($tablet) {
+		padding: 0 0 modular-scale($baseFontSize, 2, $major-second) 0;
+		.svg {
+			display: none;
+		}
+	}
 }

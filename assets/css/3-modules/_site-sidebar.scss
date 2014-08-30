@@ -37,12 +37,33 @@
 			color: $textColor;
 		}
 	}
-}
 
-.about-section {
-	@include span-columns(9);
-	@include omega();
+	@include media($tablet) {
+		@include span-columns(3);
+		@include omega();
+		border-bottom: 1px solid $textColor;
+		margin-bottom: modular-scale($baseFontSize, 0, $major-second);
+		padding-bottom: modular-scale($baseFontSize, 0, $major-second);
 
-	.about-section-postTitle {
+		
+		img {
+			@include span-columns(1);
+			@include media($mobile){
+				margin-top: 40px;
+			}
+		}
+
+		dl {
+			@include span-columns(2);
+			@include omega();
+		}
+
+		ul {
+			display: none;
+		}
+
+		.authorBio {
+			text-align: justify;		
+		}
 	}
 }

@@ -6,4 +6,8 @@
 	margin-bottom: $standardMargin;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
+	@include media($mobile) {
+		display: none;
+	}
 }

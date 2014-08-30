@@ -4,6 +4,9 @@ body {
 	background: $backgroundColor;
 	font-size: 1em;
 	font-weight: 100;
+	@include media($tablet) {
+		padding: 0 10px;	
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,15 +21,27 @@ h2 {
 	border-left: 10px solid $callToAction;
 	font-size: modular-scale($baseFontSize, 6, $major-second);
 	line-height: modular-scale($baseFontSize, 6, $major-second);
+
+	@include media($mobile) {
+		text-indent: 0;
+		border-left: none;
+		font-size: modular-scale($baseFontSize, 3, $major-second);
+		line-height: modular-scale($baseFontSize, 3, $major-second);
+	}
 }
 
 h3 {
 	margin-top: modular-scale($baseFontSize, 4, $major-second);
 	font-family: $standardFont;
-	font-size: $baseFontSize;
 	font-weight: 300;
 	font-size: modular-scale($baseFontSize, 2, $major-second);
 	line-height: modular-scale($baseFontSize, 2, $major-second);
+
+	@include media($mobile) {
+		margin-top: modular-scale($baseFontSize, 2, $major-second);
+		font-size: $baseFontSize;
+		line-height: modular-scale($baseFontSize, 2, $major-second);
+	}
 }
 
 p {
@@ -39,6 +54,15 @@ p {
 	&:first-of-type {
 		margin-top: modular-scale($baseFontSize, 1, $major-second);
 	}
+	
+	@include media($mobile) {
+		font-size: modular-scale($baseFontSize, -2, $major-second);
+
+		&:first-of-type {
+			margin-top: modular-scale($baseFontSize, -1, $major-second);
+		}
+	}
+
 }
 
 a {
@@ -52,7 +76,6 @@ a {
 
 .container {
 	@include outer-container;
-	// border: 1px solid red;
 }
 
 .highlight {

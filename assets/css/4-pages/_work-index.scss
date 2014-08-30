@@ -55,4 +55,22 @@
 			}
 		}
 	}
+
+	@include media($tablet) {
+		.workList-left {
+			@include span-columns(3);
+		}
+		.workList-right {
+			@include span-columns(3);
+			text-align: center;
+
+			.workList-container-inner {
+				float: none;
+				text-align: center;
+			}
+		}
+		.workList-container-slider {
+			display: none;
+		}
+	}
 }

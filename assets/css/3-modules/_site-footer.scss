@@ -21,6 +21,20 @@
 			padding: 0;
 		}
 	}
+
+	@include media($mobile) {
+		@include span-columns(3);
+		text-align: center;
+
+		p {
+			float: none;
+			margin-top: modular-scale($baseFontSize, -4, $major-second);
+		}
+
+		.siteFooter-social {
+			float: none;
+		}
+	}
 }
 
 #returnToTop {

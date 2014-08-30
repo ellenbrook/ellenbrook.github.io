@@ -1,10 +1,19 @@
 $(function() {
   smoothScroll(500);
   linkToBlogPost();
-  setWorkSectionHeight();
-  returnToTop();
-});
 
+  if(!detectMobile()) {
+      setWorkSectionHeight();
+      returnToTop();
+   }
+});
+function detectMobile() {
+   if(window.innerWidth <= 700) {
+     return true;
+   } else {
+     return false;
+   }
+}
 function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
