@@ -55,12 +55,12 @@ function returnToTop() {
 
             if(scrollPercent > targetPercentage) {
                 // $(targetID).css({ display: 'block' });
-                $(targetID).fadeIn( 100 );
+                $(targetID).fadeIn( 300 );
             }
             
             if(scrollPercent < targetPercentage) {
                 // $(targetID).css({ display: 'none' });
-                $(targetID).fadeOut( 100 );
+                $(targetID).fadeOut( 300 );
             }
                                     
         }).trigger('scroll');
