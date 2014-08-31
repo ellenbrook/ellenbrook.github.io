@@ -9,6 +9,28 @@ body {
 	}
 }
 
+p {
+	font-size: $baseFontSize;
+	font-weight: 100;
+	line-height: modular-scale($baseFontSize, 4, $major-second);
+	color: $textColor;
+	font-family: $standardFont;
+
+	&:first-of-type {
+		margin-top: modular-scale($baseFontSize, 1, $major-second);
+	}
+	
+	@include media($mobile) {
+		font-size: modular-scale($baseFontSize, -2, $major-second);
+
+		&:first-of-type {
+			margin-top: modular-scale($baseFontSize, -1, $major-second);
+		}
+	}
+
+}
+
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $headingFont;
 	color: $textColor;
@@ -31,38 +53,34 @@ h2 {
 }
 
 h3 {
-	margin-top: modular-scale($baseFontSize, 4, $major-second);
+	margin-top: modular-scale($baseFontSize, 6, $major-second);
 	font-family: $standardFont;
 	font-weight: 300;
 	font-size: modular-scale($baseFontSize, 2, $major-second);
-	line-height: modular-scale($baseFontSize, 2, $major-second);
+	line-height: modular-scale($baseFontSize, 3, $major-second);
 
 	@include media($mobile) {
 		margin-top: modular-scale($baseFontSize, 2, $major-second);
 		font-size: $baseFontSize;
-		line-height: modular-scale($baseFontSize, 2, $major-second);
+		line-height: modular-scale($baseFontSize, 1, $major-second);
 	}
 }
 
-p {
-	font-size: $baseFontSize;
-	font-weight: 100;
-	line-height: modular-scale($baseFontSize, 4, $major-second);
-	color: $textColor;
+h4 {
+	margin-top: modular-scale($baseFontSize, 1, $major-second);
 	font-family: $standardFont;
+	font-weight: 600;
+	font-size: modular-scale($baseFontSize, 0, $major-second);
 
-	&:first-of-type {
-		margin-top: modular-scale($baseFontSize, 1, $major-second);
+	> p:first-child {
+		margin-top: modular-scale($baseFontSize, -6, $major-second);
 	}
-	
+
 	@include media($mobile) {
-		font-size: modular-scale($baseFontSize, -2, $major-second);
-
-		&:first-of-type {
-			margin-top: modular-scale($baseFontSize, -1, $major-second);
-		}
+		margin-top: modular-scale($baseFontSize, 0, $major-second);
+		font-size: $baseFontSize;
+		line-height: modular-scale($baseFontSize, 1, $major-second);
 	}
-
 }
 
 a {
@@ -74,6 +92,13 @@ a {
 	}
 }
 
+code {
+	font-family: monospace,monospace;
+	font-size: 1em;
+	background-color: $callToAction;
+	color: $backgroundColor;
+	padding: 0 2px;
+}
 .container {
 	@include outer-container;
 }

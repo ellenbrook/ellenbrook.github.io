@@ -2,6 +2,11 @@
 	@include span-columns(12);
 	@include omega();
 	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
 	p {
 		font-size: modular-scale($baseFontSize, 1, $major-second);
 		line-height: modular-scale($baseFontSize, 6, $major-second);
