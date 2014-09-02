@@ -1,7 +1,6 @@
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}
 <div class="workList">
-	<h2>{{ page.title }}</h2>
 	<div class="container">
 		<div class="left">
 			<img src="http://unsplash.it/550/450">
@@ -13,7 +12,7 @@
 	</div>
 
 	<div class="left">
-		<h3>The story</h3>
+		<h3>{{ page.title }}</h3>
 		<p class="workList-desc">{{ page.meta }}</p>
 	</div>
 
