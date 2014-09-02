@@ -16,7 +16,7 @@ p {
 	color: $textColor;
 
 	&:first-child {
-		@include leader(1);
+		@include leader();
 	}
 }
 
