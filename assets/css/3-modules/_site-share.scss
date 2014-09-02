@@ -3,6 +3,7 @@
 
 	.post-shareHeader {
 		@extend .authorName;
+		margin-top: 0;
 	}
 
 	ul {
@@ -11,11 +12,12 @@
 		margin: 0;
 		
 		li{
-			border-bottom: 1px solid $textColor;
+			border-bottom: 1px solid #c6c6c6;
+			width: 90%;
 			@include adjust-font-size-to(.75em);
 
 			&:last-child {
-				border-bottom: 1px solid $textColor;
+				border-bottom: 1px solid #c6c6c6;
 			}
 		}
 	}
