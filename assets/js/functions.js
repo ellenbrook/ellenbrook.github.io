@@ -1,4 +1,5 @@
 $(function() {
+  convertSVG();
   smoothScroll(500);
   linkToBlogPost();
 
@@ -77,6 +78,7 @@ function returnToTop() {
 }
 
 //Converts IMG SVG to inline SVG
+function convertSVG() {
 jQuery('img.svg').each(function(){
     var $img = jQuery(this);
     var imgID = $img.attr('id');
@@ -103,8 +105,8 @@ jQuery('img.svg').each(function(){
         $img.replaceWith($svg);
 
     }, 'xml');
-
 });
+}
 
 /* InstantClick 3.0.1 | (C) 2014 Alexandre Dieulot | http://instantclick.io/license.html */
 var InstantClick=function(e,g){function v(a){var c=a.indexOf("#");return 0>c?a:a.substr(0,c)}function y(a){for(;"A"!=a.nodeName;)a=a.parentNode;return a}function t(a,c){for(var b=0;b<D[a].length;b++)D[a][b](c)}function G(a,c,b,l){e.title=a;e.documentElement.replaceChild(c,e.body);if(b){history.pushState(null,null,b);a=b.indexOf("#");a=-1<a&&e.getElementById(b.substr(a+1));c=0;if(a)for(;a.offsetParent;)c+=a.offsetTop,a=a.offsetParent;scrollTo(0,c);m=v(b)}else scrollTo(0,l);H();z.done();t("change",
