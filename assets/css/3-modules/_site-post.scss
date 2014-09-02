@@ -19,12 +19,10 @@
 	}
 	.post-postBody {
 		@include span-columns(8);
+		margin-top: -$base-line-height;
 
 		p {
 			@include adjust-font-size-to(1em);
-			&:first-of-type {
-				margin: 0;
-			}
 		}
 	}
 }

@@ -127,7 +127,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.scss",
-		"outputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
+		"outputAbbreviatedPath": "\/assets\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
