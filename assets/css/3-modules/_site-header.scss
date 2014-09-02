@@ -1,4 +1,5 @@
 .siteHeader {
+	@include leader(1.777);
 	@include span-columns(12);
 	@include omega();
 
@@ -21,6 +22,7 @@
 
 		h2.logo-subtitle {
 			margin-top: 1em;
+			margin-bottom: 0;
 			text-indent: -1px;
 			font-weight: 300;
 			font-size: modular-scale($base-font-size, 0, $perfect-fourth); 

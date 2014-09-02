@@ -5,20 +5,20 @@
 		@extend .authorName;
 		margin-top: 0;
 	}
+}
 
-	ul {
+ul.aside-list {
 		list-style-type: none;
 		padding-left: 0;
 		margin: 0;
 		
 		li{
-			border-bottom: 1px solid #c6c6c6;
+			border-bottom: 1px dashed $lightColor;
 			width: 90%;
 			@include adjust-font-size-to(.75em);
 
 			&:last-child {
-				border-bottom: 1px solid #c6c6c6;
+				border-bottom: 1px dashed $lightColor;
 			}
 		}
 	}
-}

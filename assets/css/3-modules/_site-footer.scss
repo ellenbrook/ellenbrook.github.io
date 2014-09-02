@@ -1,4 +1,5 @@
 .siteFooter {
+	@include leader();
 	@include clearfix;
 	@include span-columns(12);
 	@include omega();
@@ -9,6 +10,7 @@
 	p {
 		float: left;
 		margin: 0;
+		@include adjust-font-size-to(.75em);
 	}
 
 	.siteFooter-social {
@@ -29,6 +31,8 @@
 		p {
 			float: none;
 			margin-top: modular-scale($base-font-size, -4, $major-second);
+			@include adjust-font-size-to(.563em);
+		
 		}
 
 		.siteFooter-social {

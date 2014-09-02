@@ -8,31 +8,14 @@
 	}
 
 	.authorName {
-		color: $callToAction;
-		font: $headingFont;
+		@extend h4;
 		@include adjust-font-size-to(1.33em);
 	}
 
 	.authorBio {
 		color: $textColor;
-		@include leader(.75);
+		@include leader();
 		@include adjust-font-size-to(.75em);
-	}
-
-	ul {
-		@include leader(.75);
-		list-style-type: none;
-		padding-left: 0;
-		
-		li{
-			display: block;
-			@include adjust-font-size-to(.75em);
-		}
-
-		.fa {
-			font-size: 1.25em;
-			color: $textColor;
-		}
 	}
 
 	@include media($tablet) {
