@@ -2,19 +2,19 @@
 	@extend .blogList;
 	cursor: default;
 
+	.workList-title {
+		text-indent: 0;
+		border: 0;
+		color: $callToAction;
+	}
+
+	.workList-subTitle {
+		margin-top: 0;
+		color: $textColor;		
+	}
+
 	.workList-left {
 		@include span-columns(7);
-
-		.workList-title {
-			text-indent: 0;
-			border: 0;
-			color: $callToAction;
-		}
-
-		.workList-subTitle {
-			margin-top: 0;
-			color: $textColor;		
-		}
 	}
 
 	.workList-right {

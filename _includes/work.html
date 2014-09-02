@@ -1,0 +1,24 @@
+{% for page in site.pages reversed %}
+	{% if page.type == 'example' %}
+	    <div class="workList">
+	    	
+	    	<h2 class="workList-title">{{ page.title }}</h2>
+		    <h3 class="workList-subTitle">{{ page.skills }}</h3>
+
+	    	<div class="workList-left">
+		        <p class="workList-desc">{{ page.meta }}</p>
+	    	</div>
+
+	    	<div class="workList-right">
+	    		<div class="workList-container">
+	    			<a href="{{ page.website }}" title="Visit {{ page.title }}" rel="nofollow">
+	    				<div class="workList-container-inner">
+		    		 		<img src="/assets/img/{{page.img}}.jpg" class="workList-img">
+			    			<div class="workList-container-slider">Visit site</div>
+	    				</div>
+	    			</a>
+	    		</div>
+	    	</div>
+   		</div>
+	{% endif %}
+{% endfor %}
