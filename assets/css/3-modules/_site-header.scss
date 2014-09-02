@@ -1,16 +1,15 @@
 .siteHeader {
 	@include span-columns(12);
 	@include omega();
-	margin-top: 2em;
 
 	.siteHeader-logo {
 		@include span-columns(6);
-		font-family: $standardFont;
 
-		h1 { 
+		h1.logo { 
 			margin-bottom: 0;
-			font-family: $standardFont;
-			font-size: modular-scale($baseFontSize, 9, $major-second); 
+			font-family: $logoFont;
+			font-weight: 100;
+			font-size: modular-scale($base-font-size, 4, $perfect-fourth); 
 			word-spacing: -10px;
 			letter-spacing: -1px;
 			text-transform: lowercase;
@@ -20,15 +19,16 @@
 			}
 		}
 
-		h2 {
-			margin-top: 0;
-			border: none;
-			text-indent: 0;
-			font-size: modular-scale($baseFontSize, -1, $major-second); 
-			font-family: $standardFont;
-			line-height: .7em;
-			letter-spacing: -1px;
-			word-spacing: 4px;
+		h2.logo-subtitle {
+			margin-top: 1em;
+			text-indent: -1px;
+			font-weight: 300;
+			font-size: modular-scale($base-font-size, 0, $perfect-fourth); 
+			font-family: $logoFont;
+			color: $textColor;
+			line-height: .5em;
+			letter-spacing: 0px;
+			word-spacing: -1px;
 			text-transform: uppercase;
 		}
 	}
@@ -39,13 +39,12 @@
 
 		.siteHeader-navList {
 			list-style-type: none;
-		    padding: 0;
-		    margin: 3.59em 0 0;
+			margin-top: 1.77em;
 		    overflow: hidden;
 		    float: right;
 
 			a {
-      			font-size: modular-scale($baseFontSize, 0, $major-third)
+      			font-family: $headingFont;
       		}
 
 			> li {
@@ -74,7 +73,7 @@
 			@include omega();
 
 			h1 {
-				font-size: modular-scale($baseFontSize, 7, $major-second); 
+				font-size: modular-scale($base-font-size, 7, $major-second); 
 			}
 
 			h2 {

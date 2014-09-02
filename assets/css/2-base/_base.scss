@@ -1,86 +1,51 @@
 * { box-sizing: border-box; }
-
 body {
 	background: $backgroundColor;
-	font-size: 1em;
+	font-family: $standardFont;
 	font-weight: 100;
+	padding-top: 1.77em;
+
 	@include media($tablet) {
 		padding: 0 10px;	
 	}
 }
 
 p {
-	font-size: $baseFontSize;
-	font-weight: 100;
-	line-height: modular-scale($baseFontSize, 4, $major-second);
-	color: $textColor;
+	@include trailer();
 	font-family: $standardFont;
+	color: $textColor;
 
-	&:first-of-type {
-		margin-top: modular-scale($baseFontSize, 1, $major-second);
+	&:first-child {
+		@include leader(.5);
 	}
-	
-	@include media($mobile) {
-		font-size: modular-scale($baseFontSize, -2, $major-second);
-
-		&:first-of-type {
-			margin-top: modular-scale($baseFontSize, -1, $major-second);
-		}
-	}
-
 }
 
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $headingFont;
-	color: $textColor;
+	color: $callToAction;
 	margin: 0;
 }
 
 //Post title, page title, and so on.
 h2 {
-	text-indent: modular-scale($baseFontSize, -2, $major-second);
-	border-left: 10px solid $callToAction;
-	font-size: modular-scale($baseFontSize, 6, $major-second);
-	line-height: modular-scale($baseFontSize, 6, $major-second);
-
-	@include media($mobile) {
-		text-indent: 0;
-		border-left: none;
-		font-size: modular-scale($baseFontSize, 3, $major-second);
-		line-height: modular-scale($baseFontSize, 3, $major-second);
-	}
+	@include adjust-font-size-to(1.777em);
 }
 
 h3 {
-	margin-top: modular-scale($baseFontSize, 6, $major-second);
-	font-family: $standardFont;
-	font-weight: 300;
-	font-size: modular-scale($baseFontSize, 2, $major-second);
-	line-height: modular-scale($baseFontSize, 3, $major-second);
+	@include leader();
+	@include adjust-font-size-to(1.33em);
 
-	@include media($mobile) {
-		margin-top: modular-scale($baseFontSize, 2, $major-second);
-		font-size: $baseFontSize;
-		line-height: modular-scale($baseFontSize, 1, $major-second);
+	&+p {
+		@include leader(.5);
 	}
 }
 
 h4 {
-	margin-top: modular-scale($baseFontSize, 1, $major-second);
-	font-family: $standardFont;
-	font-weight: 600;
-	font-size: modular-scale($baseFontSize, 0, $major-second);
-
-	> p:first-child {
-		margin-top: modular-scale($baseFontSize, -6, $major-second);
-	}
-
-	@include media($mobile) {
-		margin-top: modular-scale($baseFontSize, 0, $major-second);
-		font-size: $baseFontSize;
-		line-height: modular-scale($baseFontSize, 1, $major-second);
-	}
+	@include adjust-font-size-to(1em);
+	font-weight: bold;
+	color: $textColor;
+	@include leader(.5);
 }
 
 a {
@@ -99,6 +64,7 @@ code {
 	color: $backgroundColor;
 	padding: 0 2px;
 }
+
 .container {
 	@include outer-container;
 }
@@ -113,4 +79,8 @@ code {
 	&:hover {
 		fill: $textColor;
 	}
+}
+
+section, aside {
+
 }

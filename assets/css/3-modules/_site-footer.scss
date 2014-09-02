@@ -7,7 +7,6 @@
 	overflow: hidden;
 
 	p {
-		margin-top: .5em;
 		float: left;
 	}
 
@@ -28,7 +27,7 @@
 
 		p {
 			float: none;
-			margin-top: modular-scale($baseFontSize, -4, $major-second);
+			margin-top: modular-scale($base-font-size, -4, $major-second);
 		}
 
 		.siteFooter-social {

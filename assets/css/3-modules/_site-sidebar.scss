@@ -4,32 +4,29 @@
 
 	img {
 		border-radius: 50%;
+		margin-top: 18px;
 	}
 
 	.authorName {
-		font-family: $headingFont;
 		color: $callToAction;
-		font-size: modular-scale($baseFontSize, 3, $major-second);
-		margin-bottom: modular-scale($baseFontSize, 0, $major-second);
+		font: $headingFont;
+		@include adjust-font-size-to(1.33em);
 	}
 
 	.authorBio {
-		font-size: modular-scale($baseFontSize, -2, $major-second);
-		line-height: modular-scale($baseFontSize, 2, $major-second);
 		color: $textColor;
-		font-style: italic;
-		margin: 0;
+		@include leader(.75);
+		@include adjust-font-size-to(.75em);
 	}
 
 	ul {
+		@include leader(.75);
 		list-style-type: none;
 		padding-left: 0;
 		
 		li{
 			display: inline-block;
-			margin-right: modular-scale($baseFontSize, -3, $major-second);
-			padding: modular-scale($baseFontSize, -6, $major-second) 0;
-			font-size: modular-scale($baseFontSize, -1, $major-second);
+			@include adjust-font-size-to(.75em);
 		}
 
 		.fa {
@@ -42,8 +39,8 @@
 		@include span-columns(3);
 		@include omega();
 		border-bottom: 1px solid $textColor;
-		margin-bottom: modular-scale($baseFontSize, 0, $major-second);
-		padding-bottom: modular-scale($baseFontSize, 0, $major-second);
+		margin-bottom: modular-scale($base-font-size, 0, $major-second);
+		padding-bottom: modular-scale($base-font-size, 0, $major-second);
 
 		
 		img {

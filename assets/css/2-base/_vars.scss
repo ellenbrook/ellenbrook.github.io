@@ -1,11 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento:400,700);
+
 $backgroundColor: #e0e0df;
 $textColor: #4b4a4b;
 $callToAction: #bf3331;
 
-$headingFont: "bebas-neue",sans-serif;
-$standardFont: "museo-sans",sans-serif;
+$headingFont: "arimo", sans-serif;
+$standardFont: "georgia", serif;
+$logoFont: 'museo sans', sans-serif;
 
-$baseFontSize: 18px;
+// Baseline Height Compass
+$base-font-size: 18px;
+$base-line-height: 28px;
 
 //standard measurements
 $standardMargin: 50px;
@@ -20,3 +25,5 @@ $max-width: 960px;
 $mobile: new-breakpoint(max-width 480px 3);
 $tablet: new-breakpoint(max-width 780px 3);
 $computer: new-breakpoint(max-width 960px 12);
+
+@include establish-baseline;

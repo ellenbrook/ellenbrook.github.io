@@ -9,18 +9,11 @@
 			text-indent: 0;
 			border: 0;
 			color: $callToAction;
-			margin-top:  modular-scale($baseFontSize, 0, $major-second);
 		}
 
 		.workList-subTitle {
-			margin: 0;
-			font-family: $headingFont;
-			font-size: modular-scale($baseFontSize, 2, $major-second);
-			line-height: modular-scale($baseFontSize, 5, $major-second);
-		}
-
-		.workList-desc {
 			margin-top: 0;
+			color: $textColor;		
 		}
 	}
 
@@ -47,7 +40,7 @@
 				height: 200px;
 				background-color: $callToAction;
 				color: $backgroundColor;
-				font-size: modular-scale($baseFontSize, 3, $major-second);
+				font-size: modular-scale($base-font-size, 3, $major-second);
 				text-align: center;
 				padding-top: 75px;
 				@include transition (all 300ms ease-in);

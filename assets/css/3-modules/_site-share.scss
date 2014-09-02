@@ -3,7 +3,6 @@
 
 	.post-shareHeader {
 		@extend .authorName;
-		margin-bottom: modular-scale($baseFontSize, -3, $major-second);
 	}
 
 	ul {
@@ -12,10 +11,8 @@
 		margin: 0;
 		
 		li{
-			margin-right: modular-scale($baseFontSize, -4, $major-second);
-			padding: modular-scale($baseFontSize, -4, $major-second) 0;
-			font-size: modular-scale($baseFontSize, -3, $major-second);
-			border-top: 1px solid $textColor;
+			border-bottom: 1px solid $textColor;
+			@include adjust-font-size-to(.75em);
 
 			&:last-child {
 				border-bottom: 1px solid $textColor;

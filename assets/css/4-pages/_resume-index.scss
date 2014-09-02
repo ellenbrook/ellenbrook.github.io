@@ -7,7 +7,7 @@
 	}
 	
 	h3 {
-		margin-bottom: modular-scale($baseFontSize, 0, $major-second);
+
 	}
 
 	&-container {
@@ -61,7 +61,7 @@
 
 		.resume-section-third {
 			@include span-columns(3);
-			margin: modular-scale($baseFontSize, -16, $major-second) 0;
+			margin: modular-scale($base-font-size, -16, $major-second) 0;
 			@include omega();
 		
 			&:last-child {
@@ -74,7 +74,7 @@
 
 			h3 {
 				font-weight: 700;
-				margin-top: modular-scale($baseFontSize, 3, $major-second) 0;
+				margin-top: modular-scale($base-font-size, 3, $major-second) 0;
 			}
 		}
 	}

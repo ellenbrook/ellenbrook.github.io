@@ -4,8 +4,8 @@
 	background-image: url('/assets/img/header-image.jpg');
 	background-size: cover;
 	margin-bottom: $standardMargin;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 11px;
+	margin-bottom: 12px;
 
 	@include media($mobile) {
 		display: none;

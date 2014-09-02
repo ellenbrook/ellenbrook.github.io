@@ -16,7 +16,6 @@
 
 	.blogList-title {
 		float: left;
-		margin: modular-scale($baseFontSize, -3, $major-second) 0;
 		padding: 0;
 		border: none;
 		text-indent: 0;
@@ -27,8 +26,9 @@
 		clear: left;
 		float: left;
 		margin: 0;
-		font-size: modular-scale($baseFontSize, -1, $major-second);
+		color: $textColor;
 		@include transition(margin-left 0.3s ease-out);
+		@include adjust-font-size-to(1em);
 	}
 
 	.svg {
@@ -38,7 +38,7 @@
 	}
 	
 	@include media($tablet) {
-		padding: 0 0 modular-scale($baseFontSize, 2, $major-second) 0;
+		padding: 0 0 modular-scale($base-font-size, 2, $major-second) 0;
 		.svg {
 			display: none;
 		}

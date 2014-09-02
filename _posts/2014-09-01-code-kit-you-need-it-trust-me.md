@@ -5,9 +5,9 @@ author: Eric Ellenbrook
 ---
 The command line. The biggest fear for a noob like me. Things like "gem install sass" can be confusing. Huh? "gem install jekyll?", "Why do I have to type 'sudo' before everything when the install instructions do not have it?" None of it made sense. Quite frankly it still doesn't. Although learning command line is an important goal for any developer, the learning curve can be huge to say the least. That's where Codekit comes in to save the day. What is Codekit you ask? Codekit is a program that essentially bridges the gap between every day development and things like pre-processors, grunt, gulp, and so on. 
 
-If you're a vet in the industry you may as well quit reading now. You know everything that I'm going to talk about. If you're a noob then there might be a hidden gem in here for you. I discovered Codekit during my search for learning Sass, a CSS preprocessor that helps the every day life of front end developers. If you don't know what Sass is, I highly suggest [learning about that](http://sass-lang.com) before even reading anything further. I wanted to learn Sass. I needed to learn it. The only problem was I didn't know how to "download it" like I had for many other applications that I had used in the past. One of the options that Sass's website mentions is Codekit.
-
 <!--more-->
+
+If you're a vet in the industry you may as well quit reading now. You know everything that I'm going to talk about. If you're a noob then there might be a hidden gem in here for you. I discovered Codekit during my search for learning Sass, a CSS preprocessor that helps the every day life of front end developers. If you don't know what Sass is, I highly suggest [learning about that](http://sass-lang.com) before even reading anything further. I wanted to learn Sass. I needed to learn it. The only problem was I didn't know how to "download it" like I had for many other applications that I had used in the past. One of the options that Sass's website mentions is Codekit.
 
 I downloaded and installed a 9 day trial of Codekit, hoping it would shed some light on the preprocessor game and boy did it. I admit that I'm not really the first to stop and read directions prior to trying to use an application and it worked in my favor with Codekit because it's just that intuitive. 
 
