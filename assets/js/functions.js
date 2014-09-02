@@ -14,6 +14,7 @@ function detectMobile() {
      return false;
    }
 }
+
 function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
