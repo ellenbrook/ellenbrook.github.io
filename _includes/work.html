@@ -1,24 +1,30 @@
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}
-	    <div class="workList">
-	    	
-	    	<h2 class="workList-title">{{ page.title }}</h2>
-		    <h3 class="workList-subTitle">{{ page.skills }}</h3>
+<div class="workList">
+	<h2>{{ page.title }}</h2>
+	<div class="container">
+		<div class="left">
+			<img src="http://unsplash.it/550/450">
+		</div>
+		<div class="right">
+			<img src="http://unsplash.it/386/240">
+			<img src="http://unsplash.it/386/200">
+		</div>
+	</div>
 
-	    	<div class="workList-left">
-		        <p class="workList-desc">{{ page.meta }}</p>
-	    	</div>
+	<div class="left">
+		<h3>The story</h3>
+		<p class="workList-desc">{{ page.meta }}</p>
+	</div>
 
-	    	<div class="workList-right">
-	    		<div class="workList-container">
-	    			<a href="{{ page.website }}" title="Visit {{ page.title }}" rel="nofollow">
-	    				<div class="workList-container-inner">
-		    		 		<img src="/assets/img/{{page.img}}.jpg" class="workList-img">
-			    			<div class="workList-container-slider">Visit site</div>
-	    				</div>
-	    			</a>
-	    		</div>
-	    	</div>
-   		</div>
+	<div class="right">    
+		<h3 class="workList-subTitle">Skills Used</h3>
+		<ul class="aside-list">
+		{% for tag in page.tags %}
+			<li>{{ tag }}</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
 	{% endif %}
 {% endfor %}

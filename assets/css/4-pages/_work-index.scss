@@ -1,69 +1,11 @@
 .workList {
-	@extend .blogList;
-	cursor: default;
+	@include span-columns(12);
 
-	.workList-title {
-		text-indent: 0;
-		border: 0;
-		color: $callToAction;
-	}
-
-	.workList-subTitle {
-		margin-top: 0;
-		color: $textColor;		
-	}
-
-	.workList-left {
+	.left {
 		@include span-columns(7);
 	}
 
-	.workList-right {
+	.right {
 		@include span-columns(5);
-		text-align: right;
-		
-		.workList-container-inner {
-			position: relative;
-			width: 267px;
-			float: right;
-			overflow: hidden;
-
-			&:hover .workList-container-slider {
-			  left: 0;
-			  @include transition (all 300ms ease-in);
-			}
-
-			.workList-container-slider {
-				position: absolute;
-				left: -267px;
-				top: 0;
-				width: 267px;
-				height: 200px;
-				background-color: $callToAction;
-				color: $backgroundColor;
-				font-size: modular-scale($base-font-size, 3, $major-second);
-				text-align: center;
-				padding-top: 75px;
-				@include transition (all 300ms ease-in);
-				cursor: pointer
-			}
-		}
-	}
-
-	@include media($tablet) {
-		.workList-left {
-			@include span-columns(3);
-		}
-		.workList-right {
-			@include span-columns(3);
-			text-align: center;
-
-			.workList-container-inner {
-				float: none;
-				text-align: center;
-			}
-		}
-		.workList-container-slider {
-			display: none;
-		}
 	}
 }
