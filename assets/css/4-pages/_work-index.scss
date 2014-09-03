@@ -29,13 +29,18 @@
 	text-align: center;
 	
 	&:hover img {
-		transition: all 0.4s ease;
-		transform: scale(.55);
+		-webkit-filter: blur(2px);
+		transition: blur 0.1s ease;
+		z-index: 1;
 	}
 
 	&:hover .work-menu-content { 
-		transition: all 0.4s ease;
+		border-radius: 0;
+		height: 100%;
+		width: 100%;
 		transform: scale(1);
+		transition: all 0.3s ease;
+		z-index: 10;
 	}
 
 	&:last-child {
@@ -46,7 +51,7 @@
 		position: relative;
 		display: block;
 		z-index: 10;
-		transition: all 0.4s ease;
+		transition: all 0.3s ease;
 	}
 
 	.work-menu-content {
@@ -55,12 +60,13 @@
 		top: 0;
 		bottom: 0;
 		right: 0;
+		height: 1px;
 		margin: 0;
 		z-index: 1;
 		font-family: $headingFont;
-		background: $textColor;
-		transform: scale(.55);
-		transition: all 0.4s ease;
+		background: rgba($textColor, .5);
+		transform: scale(.5);
+		transition: all 0.3s ease;
 	}
 
 	.work-menu-header {
@@ -70,20 +76,5 @@
 		width: 100%;
 		font-weight: 100;
 		color: #fff;
-	}
-
-	.work-menu-button {
-		position: absolute;
-		bottom: .55em;
-		left: 0;
-		right: 0;
-		width: 150px;
-		margin: 0 auto;
-		text-align: center;
-		padding: 5px 10px;
-		display: inline-block;
-		background: $callToAction;
-		color: #fff;
-		font-family: $headingFont;
 	}
 }
