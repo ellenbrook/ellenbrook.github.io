@@ -7,7 +7,7 @@ I'll be honest, I'm a junior level developer. There's absolutely no reason to pr
 
 <!--more-->
 
-As a complete beginner I as happy to make a contact form function properly, or to create a captcha that actually worked. Nowadays, though, it's different. Nowadays I am trying to learn new software or a new take on a language&emdash;you know, something interesting. 
+As a complete beginner I as happy to make a contact form function properly, or to create a captcha that actually worked. Nowadays, though, it's different. Nowadays I am trying to learn new software or a new take on a language&mdash;you know, something interesting. 
 
 As part of my weekly ritual, I watch [Devtips For Designers](https://www.youtube.com/watch?v=nTYP4IZvLWw). It's a weekly Youtube channel by a pretty great guy called Travis Neilson. He's been working on a weekly series where he creates a professional looking website from start to finish. When I first started watching it, he kept referring to a platform called Jekyll. I didn't know what it was but I just chalked it up as another trendy CMS.
 
@@ -18,4 +18,4 @@ I like the idea of not being on a database driven CMS and I absolutely **love** 
 
 **Edit**: I just deployed this without writing what layout to use in the front matter. I guess there is a little bit more of a learning curve than I thought. :-)
 
-**Edit**: Okay, maybe I'm just tired, but I committed something withing defining the excerpt. I promise Jekyll isn't hard, guys! It's just me.
+**Edit**: Okay, maybe I'm just tired, but I committed something without defining the excerpt. I promise Jekyll isn't hard, guys! It's just me.
