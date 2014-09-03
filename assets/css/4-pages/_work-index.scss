@@ -41,6 +41,7 @@
 	}
 
 	&:hover .work-menu-header {
+		display: block;
 		color: rgba($backgroundColor, 1.0);
 		transform: scale(1);
 		transition: all 0.3 ease;
@@ -72,6 +73,7 @@
 
 	.work-menu-header {
 		@extend h3;
+		display: none;
 		margin: 0;
 		padding-top: 125px;
 		width: 100%;
