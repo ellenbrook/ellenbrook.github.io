@@ -36,10 +36,7 @@ h2 {
 h3 {
 	@include leader();
 	@include adjust-font-size-to(1.33em);
-
-	&+p {
-		@include leader(.5);
-	}
+	@include trailer();
 }
 
 h4 {

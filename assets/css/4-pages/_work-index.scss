@@ -1,5 +1,9 @@
 .workList {
 	@include span-columns(12);
+	@include trailer(1.77);
+	@include omega();
+	margin-left: -100%;
+	overflow: hidden;
 
 	.left {
 		@include span-columns(7);
@@ -7,5 +11,26 @@
 
 	.right {
 		@include span-columns(5);
+	}
+}
+
+.active {
+	margin-left: 0;
+}
+
+.work-menu {
+	overflow: hidden;
+	text-align: center;
+}
+.work-menu-block {
+	@include span-columns(4);
+	position: relative;
+	float: left;
+
+	&:last-child {
+		@include omega();
+	}
+
+	img {
 	}
 }
