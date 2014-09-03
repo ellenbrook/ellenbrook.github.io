@@ -29,18 +29,21 @@
 	text-align: center;
 	
 	&:hover img {
-		-webkit-filter: blur(2px);
-		transition: blur 0.1s ease;
+		-webkit-filter: blur(4px);
+		transform: scale(1.2);
+		transition: all 0.3s ease;
 		z-index: 1;
 	}
 
 	&:hover .work-menu-content { 
-		border-radius: 0;
-		height: 100%;
-		width: 100%;
-		transform: scale(1);
+		background: rgba($textColor, .5);
 		transition: all 0.3s ease;
-		z-index: 10;
+	}
+
+	&:hover .work-menu-header {
+		color: rgba($backgroundColor, 1.0);
+		transform: scale(1);
+		transition: all 0.3 ease;
 	}
 
 	&:last-child {
@@ -50,8 +53,8 @@
 	img {
 		position: relative;
 		display: block;
-		z-index: 10;
-		transition: all 0.3s ease;
+		z-index: 1;
+		transition: all 0.5s ease;
 	}
 
 	.work-menu-content {
@@ -60,21 +63,20 @@
 		top: 0;
 		bottom: 0;
 		right: 0;
-		height: 1px;
 		margin: 0;
-		z-index: 1;
+		z-index: 10;
 		font-family: $headingFont;
-		background: rgba($textColor, .5);
-		transform: scale(.5);
+		background: rgba($textColor, .0);
 		transition: all 0.3s ease;
 	}
 
 	.work-menu-header {
 		@extend h3;
 		margin: 0;
-		padding: .55em;
+		padding-top: 125px;
 		width: 100%;
-		font-weight: 100;
-		color: #fff;
+		transform: scale(1.5);
+		color: rgba($backgroundColor, .0);
+		transition: all 0.3s ease;
 	}
 }
