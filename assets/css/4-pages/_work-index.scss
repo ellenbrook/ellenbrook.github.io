@@ -20,17 +20,70 @@
 
 .work-menu {
 	overflow: hidden;
-	text-align: center;
 }
 .work-menu-block {
 	@include span-columns(4);
 	position: relative;
 	float: left;
+	overflow: hidden;
+	text-align: center;
+	
+	&:hover img {
+		transition: all 0.4s ease;
+		transform: scale(.55);
+	}
+
+	&:hover .work-menu-content { 
+		transition: all 0.4s ease;
+		transform: scale(1);
+	}
 
 	&:last-child {
 		@include omega();
 	}
 
 	img {
+		position: relative;
+		display: block;
+		z-index: 10;
+		transition: all 0.4s ease;
+	}
+
+	.work-menu-content {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: 0;
+		z-index: 1;
+		font-family: $headingFont;
+		background: $textColor;
+		transform: scale(.55);
+		transition: all 0.4s ease;
+	}
+
+	.work-menu-header {
+		@extend h3;
+		margin: 0;
+		padding: .55em;
+		width: 100%;
+		font-weight: 100;
+		color: #fff;
+	}
+
+	.work-menu-button {
+		position: absolute;
+		bottom: .55em;
+		left: 0;
+		right: 0;
+		width: 150px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 5px 10px;
+		display: inline-block;
+		background: $callToAction;
+		color: #fff;
+		font-family: $headingFont;
 	}
 }
