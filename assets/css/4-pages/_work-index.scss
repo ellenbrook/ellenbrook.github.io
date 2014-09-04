@@ -16,6 +16,7 @@
 
 .active {
 	margin-left: 0;
+	transition: all 0.5s ease;
 }
 
 .work-menu {
@@ -27,14 +28,15 @@
 	float: left;
 	overflow: hidden;
 	text-align: center;
+	cursor: pointer;
 	
 	&:hover img {
 		-webkit-transform-style: preserve-3d;
 		-webkit-backface-visibility: hidden;
 		-webkit-filter: blur(2px);
-		z-index: 1;
 		-webkit-transform: scale(1.2);
 		transform:  scale(1.2);
+		z-index: 1;
 	}
 
 	&:hover .work-menu-content { 
