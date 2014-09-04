@@ -29,17 +29,20 @@
 	text-align: center;
 	
 	&:hover img {
+		-webkit-transform-style: preserve-3d;
 		-webkit-filter: blur(2px);
 		z-index: 1;
 		transform:  scaleX(1.25) scaleY(1.25);
 	}
 
 	&:hover .work-menu-content { 
+		-webkit-transform-style: preserve-3d;
 		background: rgba($textColor, .5);
 		transition: all 0.3s ease;
 	}
 
 	&:hover .work-menu-header {
+		-webkit-transform-style: preserve-3d;
 		padding-top: 125px;
 		color: rgba($backgroundColor, 1);
 		transform:  scaleX(1) scaleY(1);
