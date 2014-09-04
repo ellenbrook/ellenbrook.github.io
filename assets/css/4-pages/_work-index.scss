@@ -33,6 +33,7 @@
 		-webkit-backface-visibility: hidden;
 		-webkit-filter: blur(2px);
 		z-index: 1;
+		-webkit-transform: scale(1.2);
 		transform:  scale(1.2);
 	}
 
@@ -47,6 +48,7 @@
 		-webkit-transform-style: preserve-3d;
 		padding-top: 125px;
 		color: rgba($backgroundColor, 1);
+		-webkit-transform: scale(1);
 		transform:  scale(1);
 		transition: all .25s ease-in;
 		-webkit-backface-visibility: hidden;
