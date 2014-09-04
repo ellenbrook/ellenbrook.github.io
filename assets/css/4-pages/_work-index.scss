@@ -29,10 +29,9 @@
 	text-align: center;
 	
 	&:hover img {
-		-webkit-filter: blur(4px);
-		transform: scale(1.2);
-		transition: all 0.3s ease;
+		-webkit-filter: blur(2px);
 		z-index: 1;
+		transform:  scaleX(1.25) scaleY(1.25);
 	}
 
 	&:hover .work-menu-content { 
@@ -41,9 +40,10 @@
 	}
 
 	&:hover .work-menu-header {
-		color: rgba($backgroundColor, 1.0);
-		transform: scale(1);
-		transition: all 0.3 ease;
+		padding-top: 125px;
+		color: rgba($backgroundColor, 1);
+		transform:  scaleX(1) scaleY(1);
+		transition: all .25s ease-in;
 	}
 
 	&:last-child {
@@ -53,7 +53,8 @@
 	img {
 		position: relative;
 		display: block;
-		z-index: 1;
+		transform:  scaleX(1) scaleY(1);
+		z-index: 5;
 		transition: all 0.5s ease;
 	}
 
@@ -71,12 +72,13 @@
 	}
 
 	.work-menu-header {
-		@extend h3;
+		font-family: $logoFont;
+		font-weight: 100;
+		z-index: 1;
 		margin: 0;
-		padding-top: 125px;
-		width: 100%;
-		transform: scale(1.5);
 		color: rgba($backgroundColor, .0);
-		transition: all 0.3s ease;
+		transform:  scaleX(1.25) scaleY(1.25);
+		padding-top: 110px;
+		width: 100%;
 	}
 }
