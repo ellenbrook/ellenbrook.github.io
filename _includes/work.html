@@ -1,43 +1,12 @@
 <div class="work-menu">
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}	
-	<div class="work-menu-block activate-{{ page.class }}">
+	<div class="work-menu-block">
 		<img src="http://unsplash.it/305/300">
 		<div class="work-menu-content">
-			<h3 class="work-menu-header">{{ page.title }}</h3>
+			<h3 class="work-menu-header"><a href="/work/{{ page.img }}/">{{ page.title }}</a></h3>
 		</div>
 	</div>
 	{% endif %}
 {% endfor %}
 </div>
-
-
-{% for page in site.pages reversed %}
-	{% if page.type == 'example' %}	
-<div class="workList {{ page.class }}">
-	<div class="container">
-		<div class="left">
-			<img src="http://unsplash.it/550/450">
-		</div>
-		<div class="right">
-			<img src="http://unsplash.it/386/260">
-			<img src="http://unsplash.it/386/180">
-		</div>
-	</div>
-
-	<div class="left">
-		<h3>{{ page.title }}</h3>
-		<p class="workList-desc">{{ page.meta }}</p>
-	</div>
-
-	<div class="right">    
-		<h3 class="workList-subTitle">Skills Used</h3>
-		<ul class="aside-list">
-		{% for tag in page.tags %}
-			<li>{{ tag }}</li>
-		{% endfor %}
-		</ul>
-	</div>
-</div>
-	{% endif %}
-{% endfor %}

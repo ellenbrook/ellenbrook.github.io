@@ -2,7 +2,6 @@ $(function() {
   convertSVG();
   smoothScroll(500);
   linkToBlogPost();
-  displayWork();
 
   if(!detectMobile()) {
       setWorkSectionHeight();
@@ -15,29 +14,6 @@ function detectMobile() {
    } else {
      return false;
    }
-}
-
-function displayWork() {
-  $('.activate-mp').on('click', function(event){
-    event.preventDefault()
-    $('.work-menu').hide();
-    $('.fuse, .grille').hide();
-    $('.mp').addClass('active');
-  });
-
-  $('.activate-fuse').on('click', function(event){
-    event.preventDefault()
-    $('.work-menu').hide();
-    $('.mp, .grille').hide();
-    $('.fuse').addClass('active');
-  });
-
-  $('.activate-grille').on('click', function(event){
-    event.preventDefault()
-    $('.work-menu').hide();
-    $('.mp, .fuse').hide();
-    $('.grille').addClass('active');
-  });
 }
 
 function smoothScroll (duration) {

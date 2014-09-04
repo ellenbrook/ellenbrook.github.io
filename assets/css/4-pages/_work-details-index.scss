@@ -1,0 +1,15 @@
+.workList {
+	@include span-columns(12);
+	@include trailer(1.77);
+	@include omega();
+	position: relative;
+	overflow: hidden;
+
+	.left {
+		@include span-columns(7);
+	}
+
+	.right {
+		@include span-columns(5);
+	}
+}

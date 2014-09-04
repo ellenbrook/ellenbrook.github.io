@@ -2,7 +2,7 @@
 	@include span-columns(12);
 	@include trailer(1.77);
 	@include omega();
-	margin-left: -100%;
+	position: relative;
 	overflow: hidden;
 
 	.left {
@@ -14,12 +14,8 @@
 	}
 }
 
-.active {
-	margin-left: 0;
-	transition: all 0.5s ease;
-}
-
 .work-menu {
+	@include span-columns(12);
 	overflow: hidden;
 }
 .work-menu-block {
@@ -34,8 +30,8 @@
 		-webkit-transform-style: preserve-3d;
 		-webkit-backface-visibility: hidden;
 		-webkit-filter: blur(2px);
-		-webkit-transform: scale(1.01);
-		transform:  scale(1.01);
+		-webkit-transform: scale(1.05);
+		transform:  scale(1.05);
 		z-index: 1;
 	}
 
@@ -63,7 +59,8 @@
 	img {
 		position: relative;
 		display: block;
-		transform:  scaleX(1) scaleY(1);
+		-webkit-transform: scale(1);
+		transform:  scale(1);
 		z-index: 5;
 		transition: all 0.5s ease;
 	}
@@ -90,5 +87,10 @@
 		transform:  scaleX(1.25) scaleY(1.25);
 		padding-top: 110px;
 		width: 100%;
+
+	}
+
+	a {
+		@extend .work-menu-header;
 	}
 }

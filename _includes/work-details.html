@@ -1,0 +1,25 @@
+<div class="workList">
+	<div class="container">
+		<div class="left">
+			<img src="http://unsplash.it/550/450">
+		</div>
+		<div class="right">
+			<img src="http://unsplash.it/386/260">
+			<img src="http://unsplash.it/386/180">
+		</div>
+	</div>
+
+	<div class="left">
+		<h3>{{ page.title }}</h3>
+		<p class="workList-desc">{{ page.meta }}</p>
+	</div>
+
+	<div class="right">    
+		<h3 class="workList-subTitle">Skills Used</h3>
+		<ul class="aside-list">
+		{% for tag in page.tags %}
+			<li>{{ tag }}</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
