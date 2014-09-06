@@ -7,9 +7,23 @@
 
 	.left {
 		@include span-columns(7);
+
+		@include media($tablet) {
+			@include span-columns(3);
+		}
 	}
 
 	.right {
 		@include span-columns(5);
+
+		@include media($tablet) {
+			@include span-columns(3);
+		}
 	}
 }
+
+@include media($tablet) {
+		.workList > div.container {
+			display: none;
+		}
+	}

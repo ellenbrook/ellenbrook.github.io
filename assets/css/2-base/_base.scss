@@ -89,6 +89,10 @@ section, aside {
 
 .half {
 	@include span-columns(6);
+	
+	@include media($tablet) {
+		@include span-columns(3);	
+	}
 }
 
 dl {

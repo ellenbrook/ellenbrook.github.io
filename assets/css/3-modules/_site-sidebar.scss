@@ -1,10 +1,13 @@
 .about-aside {
 	@include span-columns(3);
-	// margin-top: modular-scale($baseFontSize, 2, $major-second);
 
 	img {
 		border-radius: 50%;
 		margin-top: 18px;
+
+		@include media($tablet) {
+			@include span-columns(1);	
+		}
 	}
 
 	.authorName {
@@ -25,12 +28,8 @@
 		margin-bottom: modular-scale($base-font-size, 0, $major-second);
 		padding-bottom: modular-scale($base-font-size, 0, $major-second);
 
-		
-		img {
-			@include span-columns(1);
-			@include media($mobile){
-				margin-top: 40px;
-			}
+		h4 {
+			display: none;
 		}
 
 		dl {
