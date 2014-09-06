@@ -1,13 +1,15 @@
 <div class="work-menu">
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}	
-	<div class="work-menu-block">
+	<div class="work-menu-block" id="{{ page.img }}">
+	<a href="/work/{{ page.img }}/">
 		<div class="work-menu-dark-background">
-			<a href="/work/{{ page.img }}/"><img src="/assets/img/{{ page.img }}.jpg"></a>
+			<img src="/assets/img/{{ page.img }}.jpg">
 		</div>
 		<div class="work-menu-content">
 			<h3 class="work-menu-header"><a href="/work/{{ page.img }}/">{{ page.title }}</a></h3>
 		</div>
+	</a>
 	</div>
 	{% endif %}
 {% endfor %}

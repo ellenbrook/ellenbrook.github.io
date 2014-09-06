@@ -2,6 +2,7 @@ $(function() {
   convertSVG();
   smoothScroll(500);
   linkToBlogPost();
+  linkToWorkPage();
 
   if(!detectMobile()) {
       setWorkSectionHeight();
@@ -35,6 +36,13 @@ function linkToBlogPost() {
          var address = $(this).find('.blogList-title a').attr('href');
          window.location.href = address;
     });
+}
+
+function linkToWorkPage() {
+  $('.work-menu-content').on('click', function(){
+      var address = $(this).find('a').attr('href');
+      window.location.href = address;
+  });
 }
 
 //get the height of the container and then center the work image
