@@ -2,7 +2,9 @@
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}	
 	<div class="work-menu-block">
-		<img src="/assets/img/{{ page.img }}.jpg">
+		<div class="work-menu-dark-background">
+			<a href="/work/{{ page.img }}/"><img src="/assets/img/{{ page.img }}.jpg"></a>
+		</div>
 		<div class="work-menu-content">
 			<h3 class="work-menu-header"><a href="/work/{{ page.img }}/">{{ page.title }}</a></h3>
 		</div>

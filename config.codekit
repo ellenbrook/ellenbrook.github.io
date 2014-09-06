@@ -146,15 +146,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -304,6 +295,50 @@
 		"initialSize": 211773,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages-large.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104494,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173555,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23920,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55848,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

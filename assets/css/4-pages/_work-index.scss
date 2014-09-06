@@ -18,6 +18,12 @@
 	@include span-columns(12);
 	overflow: hidden;
 }
+
+.work-menu-dark-background {
+	background-color: $textColor;
+}
+
+
 .work-menu-block {
 	@include span-columns(4);
 	position: relative;
@@ -29,8 +35,9 @@
 	&:hover img {
 		-webkit-transform-style: preserve-3d;
 		-webkit-backface-visibility: hidden;
-		-webkit-filter: blur(3px);
 		-webkit-transform: scale(1.1);
+		-webkit-filter: blur(3px);
+		filter: blur(3px);
 		transform:  scale(1.1);
 		z-index: 1;
 	}
@@ -60,6 +67,11 @@
 	img {
 		position: relative;
 		display: block;
+		-webkit-backface-visibility: hidden;
+  		-webkit-backface-visibility: hidden;
+  		-moz-backface-visibility:    hidden;
+  		-ms-backface-visibility:     hidden;
+    	backface-visibility:     hidden; 
 		-webkit-transform: scale(1);
 		transform:  scale(1);
 		z-index: 5;
