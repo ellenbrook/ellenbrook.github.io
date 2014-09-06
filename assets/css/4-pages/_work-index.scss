@@ -16,6 +16,7 @@
 
 .work-menu {
 	@include span-columns(12);
+	@include omega();
 	overflow: hidden;
 }
 
@@ -26,12 +27,42 @@
 
 .work-menu-block {
 	@include span-columns(4);
+	margin-bottom: 2.3%;
 	position: relative;
-	float: left;
 	overflow: hidden;
 	text-align: center;
 	cursor: pointer;
 	
+	&:nth-child(3n+3) {
+		@include omega();
+	}
+
+	&:nth-child(3n+1) {
+		clear: left;
+
+		&:nth-last-child(1), &:nth-last-child(1) + div {
+			@include span-columns(12);
+			overflow: hidden;
+			height: 300px;
+
+			img { 
+				width: 100%;
+				margin-top: -33.5%; 
+			}
+		}
+
+	&:nth-last-child(2), &:nth-last-child(2) ~ div {
+		@include span-columns(6);
+		height: 300px;
+
+		img {
+			width: 100%;
+			margin-top: -15%; 
+		}
+	}
+
+	}
+
 	&:hover img {
 		-webkit-transform-style: preserve-3d;
 		-webkit-backface-visibility: hidden;
