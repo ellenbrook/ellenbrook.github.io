@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17682",
+"creatorBuild": "17756",
 "files": {
 	"\/_includes\/about.html": {
 		"fileType": 8192,
@@ -146,6 +146,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/2014\/09\/14\/how-to-install-sass.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/09\/14\/how-to-install-sass.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -191,7 +200,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35638,
+		"initialSize": 16671,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/24-grille.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/24-grille.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -202,7 +211,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 177709,
+		"initialSize": 158464,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-large.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-large.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -213,7 +222,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 101914,
+		"initialSize": 83631,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-medium.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-medium.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -224,9 +233,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 68887,
+		"initialSize": 44456,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-small.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/24-grille\/24-grille-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/blog-posts\/sass-website.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128585,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/sass-website.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/sass-website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -235,7 +255,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41378,
+		"initialSize": 18737,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts copy.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts copy.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -246,7 +266,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 40771,
+		"initialSize": 18737,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -257,7 +277,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 155938,
+		"initialSize": 120848,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -268,7 +288,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 93613,
+		"initialSize": 66367,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -301,7 +321,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 211773,
+		"initialSize": 168354,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages-large.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages-large.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -443,6 +463,18 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/README.md",
+		"outputAbbreviatedPath": "\/_site\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2288,6 +2320,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/blog-posts\/sass-website.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128585,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/sass-website.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/sass-website.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/fuse-martial-arts copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2512,6 +2555,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/resume\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2653,6 +2708,10 @@
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3131,6 +3190,7 @@
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
