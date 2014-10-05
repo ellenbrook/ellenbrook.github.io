@@ -1,6 +1,8 @@
 ---
 layout: post
-title: I finally made the switch to Jekyll
+title: I finally made the switch to Jekyll - Eric Ellenbrook
+link-title: I finally made the switch to Jekyll
+description: The new site is live. Jekyll was the winner. Read about why Jekyll is better than Wordpress.
 author: Eric Ellenbrook
 ---
 I'll be honest, I'm a junior level developer. There's absolutely no reason to pretend I'm not. I'm okay with admitting it because I'm learning every day and I'm becoming better with every tick of the clock. The reason I know I am getting better is because with every single project that I take on, I try and learn, incorporate, or perform a something that I hadn't done before.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: How to install Sass
+title: How to install Sass and other SCSS information - Eric Ellenbrook
+description: If you're a beginner and unsure about how to install Sass then this is for you.
+link-title: How to install Sass
 author: Eric Ellenbrook
 ---
 If you're anything like me, you're a bit scared of the command line or simply unexperienced to the point that you're not sure where to start. Lucky for you, I made it over the first hump. I am by no means an expert but I will tell you that with a little effort and a bit of documentation that it's not as bad as it seems! For those of you who don't know what Sass is, I'll give you the quick elevator pitch. Sass is a CSS pre-processor that offers users the ability to write CSS in a way that it should have been written all along. It allows simple ideas like storing values in variables, performing loops, and even doing math. Writing Sass allows one to modularize their code as much as they see fit, making it exponentially easier to make changes, edit, or add to their existing code.

@@ -7,22 +7,22 @@
 			<img src="/assets/img/{{ page.img }}/{{ page.img }}-medium.jpg">
 			<div>
 				<img src="/assets/img/{{ page.img }}/{{ page.img }}-small.jpg">	
-				Visit site
 			</div>
 		</div>
 	</div>
 
 	<div class="left">
-		<h3>{{ page.title }}</h3>
+		<h3>{{ page.link-title }}</h3>
 		<p class="workList-desc">{{ page.meta }}</p>
 	</div>
 
 	<div class="right">    
-		<h3 class="workList-subTitle">Skills Used</h3>
+		<h3 class="workList-subTitle">Noteworthy Information</h3>
 		<ul class="aside-list">
 		{% for tag in page.tags %}
 			<li>{{ tag }}</li>
 		{% endfor %}
+			<li><a href="{{ page.website }}">Visit {{ page.link-title }} </a></li>
 		</ul>
 	</div>
 </div>

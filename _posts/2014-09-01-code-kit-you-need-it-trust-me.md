@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Codekit. You need it. Trust me.
+title: Codekit. You need it. Trust me. - Eric Ellenbrook
+link-title: Codekit. You need it. Trust me.
+description: Codekit. It is a great app and you should use it if you don't want to spend time setting up Grunt or Gulp.
 author: Eric Ellenbrook
 ---
 The command line. The biggest fear for a noob like me. Things like "gem install sass" can be confusing. Huh? "gem install jekyll?", "Why do I have to type 'sudo' before everything when the install instructions do not have it?" None of it made sense. Quite frankly it still doesn't. Although learning command line is an important goal for any developer, the learning curve can be huge to say the least. That's where Codekit comes in to save the day. What is Codekit you ask? Codekit is a program that essentially bridges the gap between every day development and things like pre-processors, grunt, gulp, and so on. 
