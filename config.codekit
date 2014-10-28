@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17945",
+"creatorBuild": "18027",
 "files": {
 	"\/_includes\/about.html": {
 		"fileType": 8192,
@@ -182,11 +182,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
+	"\/_site\/2014\/10\/29\/six-tips-to-optimize-your-web-development-workflow.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
+		"inputAbbreviatedPath": "\/_site\/2014\/10\/29\/six-tips-to-optimize-your-web-development-workflow.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -293,7 +293,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 470193,
+		"initialSize": 450219,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/2-saddleback-leather-wallet-side-one.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/2-saddleback-leather-wallet-side-one.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -304,7 +304,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 592209,
+		"initialSize": 576539,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/3-saddleback-leather-wallet-side-two.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/3-saddleback-leather-wallet-side-two.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -315,9 +315,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 514346,
+		"initialSize": 496572,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/4-sadleback-leather-wallet-thickness.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/wallet\/4-sadleback-leather-wallet-thickness.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342849,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -482,6 +493,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
 		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/functions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/assets\/js\/min\/scroll-detection-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/scroll-detection-min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/scroll-detection-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/assets\/js\/scroll-detection.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/scroll-detection.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/scroll-detection-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2454,6 +2487,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342849,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/fuse-martial-arts copy.jpg": {
 		"fileType": 16384,

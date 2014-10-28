@@ -55,7 +55,8 @@
 		@include span-columns(6);
 		height: 300px;
 
-		img {
+		img {;
+			transform:  scale(1.1);
 			width: 100%;
 			margin-top: -15%; 
 		}
@@ -67,8 +68,6 @@
 		-webkit-transform-style: preserve-3d;
 		-webkit-backface-visibility: hidden;
 		-webkit-transform: scale(1.1);
-		-webkit-filter: blur(3px);
-		filter: blur(3px);
 		transform:  scale(1.1);
 		z-index: 1;
 	}
