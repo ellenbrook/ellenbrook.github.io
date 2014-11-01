@@ -5,7 +5,7 @@ description: I've compiled a list of web development lectures that are motivatio
 link-title: Motivational web development lectures
 author: Eric Ellenbrook
 ---
-Over the course of the last few minutes I've been compiling creative, design, and web development lectures from various well-known creatives in the industry. I'm more focused on front end development so there is a heavy skew toward that along with design and creativity in general. You'll find talks from people like Jonathon Snook, Jason Santa Maria, and the one and only Jeffery Zeldman. If you like this list or feel like something should be added, just give me a [shout out on Twitter](http://ctt.ec/_ycj8) and I'll definitely add your video to the list!
+Over the course of the last few minutes I've been compiling creative, design, and web development lectures from various well-known creatives in the industry. I'm more focused on front end development so there is a heavy skew toward that along with design and creativity in general. You'll find talks from people like Jonathon Snook, Jason Santa Maria, and the one and only Jeffery Zeldman. If you like this list or feel like something should be added, just give me a [shout out on Twitter](https://twitter.com/intent/tweet?text=%40_ellenbrook) and I'll definitely add your video to the list!
 
 <!--more-->
 
