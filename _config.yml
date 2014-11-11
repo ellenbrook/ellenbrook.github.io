@@ -15,5 +15,4 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 permalink: /detroit-web-designer-blog/:year/:month/:day/:title
 
-gems:
-- jekyll-redirect-from
+gems: jekyll-redirect-from
