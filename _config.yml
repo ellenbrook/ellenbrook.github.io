@@ -16,4 +16,4 @@ excerpt_separator: <!--more-->
 permalink: /detroit-web-designer-blog/:year/:month/:day/:title
 
 gems: 
-	- jekyll-redirect-from
+  -jekyll-redirect-from
