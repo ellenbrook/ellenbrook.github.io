@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: blog
 title: Six tips to optimize your web development work flow - Eric Ellenbrook
 description: You won't believe the ways that some web developers lose focus. Find out how to optimize your web development work flow by clicking here.
+type: blog
 link-title: Six tips to optimize your web development work flow
 author: Eric Ellenbrook
 ---
@@ -18,9 +19,9 @@ Instead of thinking about what we don't have, we use our strengths to our advant
 
 ###Use an organization tool.
 It's easy to dive in and start with a new design, idea, or project. That's an insane thought, however. Organization is huge. Don't spend your development time searching the web for ideas. That's what planning is for and I've found a great tool for planning and organization in general. The tool is called Trello. I learned about it from [Devtips for Designers](https://www.youtube.com/user/DevTipsForDesigners) and I've got to say that I swear by it. Trello is an organization tool for anyone. Think of it as cards that contain tasks, ideas, and planning. Here's a screen shot of our Trello board midway through development.
-
-![An example of a Trello board by Detroit Web Design](/assets/img/blog-posts/work-flow/trello-screen-shot.png)
-
+<figure class="content-image-container">
+	<img src="/assets/img/blog-posts/work-flow/trello-screen-shot.png" alt="Trello board by Detroit Web Designer">
+</figure>
 As you can see it is heavily used. We try and organize our Trello board by "To do", things we need to do; "Doing", things we're doing; and "Things to do before launch" amongst other things. It's a great way to toss a simple task that might go forgotten into a card in order ensure that it's completed. Use a tool, stay organized, finish all of your asks, succeed. 
 
 ###Set small mini-goals.
@@ -44,5 +45,3 @@ Taking breaks is key. Don't get burned out on any project. Sure if you're workin
 Summing up, getting in your groove really makes sure that you and your teammates stay on task and complete the tasks in a timely fashion. If you can stay organized, set small daily goals, and just make things work you'll be able to make things happen quickly. On top of that, the motto "just make it work" is a good way to live. Just your mini-goals functioning and then use the last time of refactoring to optimize your code and to make it easier to read, understand, and more efficient.
 
 I learned and used these goals throughout the process of redesigning and creating the new version of [Morning Pages](http://morningpages.net) and it really helped me keep pushing through. Even on the days where I simply didn't feel like touching my fingertips to a keyboard these thoughts resonated in my head and helped Daniel and I create something that we're truly proud of.
-
-Do you have any tips for optimizing your web development work flow? If so [Tweet at me @_ellenbrook](http://ctt.ec/_ycj8) and tell me your thoughts. I'm interested in hearing what other developers do in order to stay flowin'.

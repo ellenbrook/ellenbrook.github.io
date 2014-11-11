@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: blog
 title: I finally made the switch to Jekyll - Eric Ellenbrook
 link-title: I finally made the switch to Jekyll
+type: blog
 description: The new site is live. Jekyll was the winner. Read about why Jekyll is better than Wordpress.
 author: Eric Ellenbrook
 ---

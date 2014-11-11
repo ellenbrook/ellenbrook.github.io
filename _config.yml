@@ -1,14 +1,16 @@
 # Site settings
-title: Eric Ellenbrook - Detroit Web Designer and SEO Consultant
+title: Eric Ellenbrook
 author: Eric Ellenbrook
 email: ericellenbrook@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Eric Ellenbrook is a web developer based out of Detroit Michigan. Follow him on Twitter at @_ellenbrook
 url: "http://ellenbrook.github.io" # the base hostname & protocol for your site
-twitter_username: _ellenbrook
-github_username:  ellenbrook
+twitter: _ellenbrook
+github:  ellenbrook
+codepen:  ellenbrook
+reddit:  ellenbrook
 
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
-
+permalink: /detroit-web-designer-blog/:year/:month/:day/:title

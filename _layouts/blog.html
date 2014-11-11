@@ -1,5 +1,41 @@
-    {% include header.html %}
-  <div class="container">
-		{% include blog.html %}
-    {% include footer.html %}
-  </div>
+{% include header.html %}
+
+
+	{% include sidebar.html %}
+
+	<section class="site-content" itemscope itemType="http://schema.org/BlogPosting">
+
+		<meta itemprop="inLanguage" content="en-US"/>
+		<meta itemprop="datePublished" content="{{ page.date }}"/>
+
+		<header class="site-content-article-header">
+
+			<h2 itemprop="headline">{{ page.link-title }}</h2>
+			
+			<dl>
+				<dt class="site-content-article-sub-header">Written by</dt>
+				<dd class="site-content-article-sub-header"><span itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+				<dt class="site-content-article-sub-header">on</dt>
+				<dd class="site-content-article-sub-header">{{ page.date | date: '%B %d, %Y' }}</dd>
+				</dd>
+			</dl>
+
+		</header>
+
+
+		<article class="site-content-article" itemprop="articleBody">		
+			{{ content }}
+		</article>
+
+		<footer class="site-content-footer" itemprop="author">
+			<h3 class="site-content-footer-header">About the author</h3>
+			<figure class="site-content-footer-content">
+				<img src="http://www.gravatar.com/avatar/f5189db9d66114f330192be5844df834.png?s=150">
+				<figcaption class="site-content-footer-description"><span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Eric Ellenbrook</span></span> is a <span itemprop="worksFor">freelance web developer</span> and <span itemprop="worksFor">SEO specialist</span> located in Detroit, Michigan. In his free time he enjoys training in Brazilian Jiu-Jitsu, playing with his dogs and, obviously, writing in third person. The easiest ways to get in touch with him are <a href="http://twitter.com/@_ellenbrook" rel="nofollow" data-no-instant>through Twitter</a>, <a href="mailto: ericellenbrook@gmail.com" data-no-instant>email</a>, or on <a href="http://reddit.com/u/ellenbrook" data-no-instant>Reddit</a>.</figcaption>
+			</figure>
+		</footer>
+
+
+	</section>
+
+{% include footer.html %}

@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: blog
 title: How to install Sass and other SCSS information - Eric Ellenbrook
 description: If you're a beginner and unsure about how to install Sass then this is for you.
 link-title: How to install Sass
+type: blog
 author: Eric Ellenbrook
 ---
 If you're anything like me, you're a bit scared of the command line or simply unexperienced to the point that you're not sure where to start. Lucky for you, I made it over the first hump. I am by no means an expert but I will tell you that with a little effort and a bit of documentation that it's not as bad as it seems! For those of you who don't know what Sass is, I'll give you the quick elevator pitch. Sass is a CSS pre-processor that offers users the ability to write CSS in a way that it should have been written all along. It allows simple ideas like storing values in variables, performing loops, and even doing math. Writing Sass allows one to modularize their code as much as they see fit, making it exponentially easier to make changes, edit, or add to their existing code.
@@ -12,8 +13,9 @@ If you're anything like me, you're a bit scared of the command line or simply un
 Imagine having to change the size of a heading on the Contact page of your website. You'd have to scroll through your CSS file and even with the most well-documented and commented CSS it could take several seconds or even minutes to find the exact tag you're looking for. In Sass you can simple navigate to /css/pages/contact and open up base.scss, if you're using a structure similar to me and then make the change. This method is clearly much faster, much more efficient, and, in my opinion, the correct way to go about writing CSS. 
 
 Having said that, in order to get to the point where you're able to modularize your code, define variables and use Sass to the fullest, you have to learn how to install Sass. Earlier this year I decided that I was going to learn how to use a CSS pre-processor and when that time came I decided on Sass because it had the most popularity on Reddit as well as other development websites that I visit. I trust those guys and gals so went on over to [the official Sass website](http://sass-lang.com) and looked for the download link. The only problem was, this is all I was greeted with.
-
-![How to install Sass](/assets/img/blog-posts/sass-website.png)
+<figure class="content-image-container">
+	<img src="/assets/img/blog-posts/sass-website.png" alt="How to install sass">
+</figure>
 
 I had no idea what any of that meant. I did see that I could use various software solutions to process my Sass but I wanted to try and use the command line to, at a minimum, get it started. I did some research and I found out that if you're using a Mac you already have Ruby installed on your machine. I use a Mac so that was perfect! I followed the step by step directions and with a final ```sass -v``` to check the version I apparently had Sass installed on my machine. 
 

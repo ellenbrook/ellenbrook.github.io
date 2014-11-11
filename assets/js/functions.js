@@ -1,127 +1,47 @@
-$(function() {
-  convertSVG();
-  smoothScroll(500);
-  linkToBlogPost();
-  linkToWorkPage();
+$( document ).ready(function() {
 
-  if(!detectMobile()) {
-      setWorkSectionHeight();
-      returnToTop();
-   }
+  //Run the slideshow on example pages	
+  if($("body").attr("class") === "example") {
+  	  slideShow();
+  }
+
 });
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+
+function slideShow()
+{
+	var $bigImage = $('.computer-underlay');
+
+	$('.thumbnail').each(function()
+	{
+		var $this = $(this);
+
+		$this.on('click', function()
+		{
+			if($bigImage.data('id') !== $this.data('id'))
+			{
+				$bigImage.fadeOut(200, function()
+				{
+					var src = "/assets/img/"+$bigImage.data('name')+"/"+$bigImage.data('name')+"-"+$this.data('id')+".jpg";
+					$bigImage.data('id', $this.data('id')).attr('src', src).fadeIn(200);
+				});
+			}
+		});
+
+	});
+}
+
+
+/* Google Analytics */
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-43768603-1', 'auto');
   ga('send', 'pageview');
-function detectMobile() {
-   if(window.innerWidth <= 700) {
-     return true;
-   } else {
-     return false;
-   }
-}
 
-function smoothScroll (duration) {
-	$('a[href^="#"]').on('click', function(event) {
 
-	    var target = $( $(this).attr('href') );
-
-	    if( target.length ) {
-	        event.preventDefault();
-	        $('html, body').animate({
-	            scrollTop: target.offset().top
-	        }, duration);
-	    }
-	});
-}
-
-function linkToBlogPost() {
-    $('.blogList').on('click', function(){
-         var address = $(this).find('.blogList-title a').attr('href');
-         window.location.href = address;
-    });
-}
-
-function linkToWorkPage() {
-  $('.work-menu-content').on('click', function(){
-      var address = $(this).find('a').attr('href');
-      window.location.href = address;
-  });
-}
-
-//get the height of the container and then center the work image
-function setWorkSectionHeight() {
-    var height = 0;
-    var margin = 0;
-         $('.workList').each(function(){
-            height = $(this).height();
-            margin = ((height-200) / 2);
-        $(this).find('.workList-container-inner').css({"margin-top": margin+"px", "margin-bottom": margin+"px"});
-        });
-}
-
-function returnToTop() {
-    $(window).scroll(function(){
-            // Change this to target a different percentage
-            var targetPercentage = 70;
-            //Change this to set the height of your nav bar so it hides properly. IF you have a box shadow you may have to adjust this number to be height + shadow distance
-            var navBarHeight = 66;
-            //Change this to the ID of the content you are trying to show.
-            var targetID = "#returnToTop";
-            
-            //Window Math
-            var scrollTo = $(window).scrollTop(),
-            docHeight = $(document).height(),
-            windowHeight = $(window).height();
-            scrollPercent = (scrollTo / (docHeight-windowHeight)) * 100;
-            scrollPercent = scrollPercent.toFixed(1);
-
-            if(scrollPercent > targetPercentage) {
-                // $(targetID).css({ display: 'block' });
-                $(targetID).fadeIn( 300 );
-            }
-            
-            if(scrollPercent < targetPercentage) {
-                // $(targetID).css({ display: 'none' });
-                $(targetID).fadeOut( 300 );
-            }
-                                    
-        }).trigger('scroll');
-}
-
-//Converts IMG SVG to inline SVG
-function convertSVG() {
-jQuery('img.svg').each(function(){
-    var $img = jQuery(this);
-    var imgID = $img.attr('id');
-    var imgClass = $img.attr('class');
-    var imgURL = $img.attr('src');
-
-    jQuery.get(imgURL, function(data) {
-        // Get the SVG tag, ignore the rest
-        var $svg = jQuery(data).find('svg');
-
-        // Add replaced image's ID to the new SVG
-        if(typeof imgID !== 'undefined') {
-            $svg = $svg.attr('id', imgID);
-        }
-        // Add replaced image's classes to the new SVG
-        if(typeof imgClass !== 'undefined') {
-            $svg = $svg.attr('class', imgClass+' replaced-svg');
-        }
-
-        // Remove any invalid XML tags as per http://validator.w3.org
-        $svg = $svg.removeAttr('xmlns:a');
-
-        // Replace image with new SVG
-        $img.replaceWith($svg);
-
-    }, 'xml');
-});
-}
 
 /* InstantClick 3.0.1 | (C) 2014 Alexandre Dieulot | http://instantclick.io/license.html */
 var InstantClick=function(e,g){function v(a){var c=a.indexOf("#");return 0>c?a:a.substr(0,c)}function y(a){for(;"A"!=a.nodeName;)a=a.parentNode;return a}function t(a,c){for(var b=0;b<D[a].length;b++)D[a][b](c)}function G(a,c,b,l){e.title=a;e.documentElement.replaceChild(c,e.body);if(b){history.pushState(null,null,b);a=b.indexOf("#");a=-1<a&&e.getElementById(b.substr(a+1));c=0;if(a)for(;a.offsetParent;)c+=a.offsetTop,a=a.offsetParent;scrollTo(0,c);m=v(b)}else scrollTo(0,l);H();z.done();t("change",

@@ -1,0 +1,43 @@
+{% include header.html %}
+
+
+	{% include sidebar.html %}
+
+
+	<section class="site-content" itemscope itemType="http://schema.org/BlogPosting">
+
+		<meta itemprop="inLanguage" content="en-US"/>
+		<meta itemprop="datePublished" content="2011-06-02T16:00Z"/>
+
+		<header class="site-content-article-header">
+
+			<h2 itemprop="headline">{{ page.link-title }}</h2>
+
+		</header>
+
+
+		<article class="site-content-article" itemprop="articleBody">		
+			{{ content }}
+		</article>
+	</section>
+	<section id="leftPosition" style="width: 500px; position: fixed; left: -500px; bottom: 20px; background: #bf3331; text-align: right; padding: 10px">
+		<p><a href="https://github.com/ellenbrook/jQuery-scroll-distance-detection/fork" style="color: #fff">Fork me on Github!</a></p>
+	</section>
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+<script src="/assets/js/scroll-detection.js" type="text/javascript"></script>
+<script>
+
+	$(document).ready( function() {
+    	$(window).detectScroll({
+    		testMode: true,
+    		targetPercent: 70,
+    		position: "left",
+    		width: 500,
+    		target: "#leftPosition"
+    	});
+	});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body.resume
+	h2
+		margin-bottom: 0
+	
+	h3
+		@extend h2
+
+	section
+		+clearfix
+
+	dt
+		@extend h2
+
+	.resume-list-title
+		font-weight: bold
+		margin-bottom: 0
+
+		+ p
+			margin-top: 0
+
+.resume-personal
+	+outer-container
+	padding-bottom: $padding
+
+.resume-third
+	+span-columns(4)

@@ -1,5 +1,24 @@
-    {% include header.html %}
-  <div class="container">
-	{% include work.html %}
-    {% include footer.html %}
-  </div>
+{% include header.html %}
+
+
+	{% include sidebar.html %}
+
+
+	<section class="site-content" itemscope itemType="http://schema.org/BlogPosting">
+
+		<meta itemprop="inLanguage" content="en-US"/>
+		<meta itemprop="datePublished" content="2011-06-02T16:00Z"/>
+
+		<header class="site-content-article-header">
+
+			<h2 itemprop="headline">{{ page.link-title }}</h2>
+
+		</header>
+
+
+		<article class="site-content-article" itemprop="articleBody">		
+			{{ content }}
+		</article>
+	</section>
+
+{% include footer.html %}

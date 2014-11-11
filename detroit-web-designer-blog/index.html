@@ -1,0 +1,18 @@
+---
+layout: default
+title: Detroit Web Designer and SEO Blog - Eric Ellenbrook
+link-title: Eric Ellenbrook
+type: blog
+description: If you're looking for a peak into a Detroit web designer's life then this is the place for you. Code, jiu jitsu, and lifestyle are the things that you'll read about.
+author: Eric Ellenbrook
+--- 
+<ul class="site-content-list">
+{% for post in site.posts %}
+	<li class="site-content-list-item">
+		<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.link-title }}</a></h3>
+		<p>Posted by {{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
+		{{ post.excerpt }} 
+		<p><a href="{{ post.url }}" title="{{ post.title }}">Continue reading...</a></p>
+	</li>
+{% endfor %}
+</ul>

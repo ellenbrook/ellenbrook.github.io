@@ -1,0 +1,35 @@
+.site-content-article
+	+fill-parent
+	+clearfix
+	color: $text-color
+
+	+media($medium)
+		+fill-parent
+		+clearfix
+		color: $text-color
+
+	+media($large)
+		+fill-parent
+		+clearfix
+		color: $text-color
+
+	h3
+		margin: $h2-margin-top 0 $h2-margin-bottom 0
+		font-size: $h2-font-size
+		line-height: $h2-line-height
+
+	.content-image-container
+		+fill-parent
+		margin: $h2-margin-top 0 $h2-margin-bottom 0
+		text-align: center
+
+		img
+			max-width: 100%
+
+.site-content-tag
+	&:after
+		display: inline-block
+		content: ",\00a0"
+
+	&:last-child:after
+		display: none

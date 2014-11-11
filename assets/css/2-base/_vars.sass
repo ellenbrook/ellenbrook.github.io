@@ -1,0 +1,14 @@
+$primary-color: #bf3331
+$text-color: #4b4a4b
+$accent-color: lighten($primary-color, 20%)
+$bg-color: #FFF
+$link-color: $primary-color
+$selection-color: lighten($primary-color, 40%)
+
+$padding: modular-scale(16px,  0, 1.333)
+$border-radius: 3px
+
+$first-breakpoint-value: 480px
+$second-breakpoint-value: 768px
+$medium: new-breakpoint(min-width em($first-breakpoint-value) max-width em($second-breakpoint-value))
+$large: new-breakpoint(min-width em($second-breakpoint-value + 1))
