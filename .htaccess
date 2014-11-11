@@ -1,4 +1,6 @@
+RewriteEngine On
 Redirect 301 http://ellenbrook.github.io/work/ http://ellenbrook.github.io/detroit-web-designer-work
+Redirect 301 http://ellenbrook.github.io/resume/ http://ellenbrook.github.io/detroit-web-designer-resume/
 Redirect 301 http://ellenbrook.github.io/work/24-grille/ http://ellenbrook.github.io/detroit-web-designer-work
 Redirect 301 http://ellenbrook.github.io/work/morning-pages/ http://ellenbrook.github.io/detroit-web-designer-work/morning-pages/
 Redirect 301 http://ellenbrook.github.io/work/fuse-martial-arts/ http://erics-mbp:5757/detroit-web-designer-work/fuse-martial-arts/
