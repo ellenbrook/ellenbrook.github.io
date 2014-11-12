@@ -90,15 +90,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -287,6 +278,39 @@
 		"initialSize": 34565,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187206,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37058,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57829,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2276,6 +2300,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/3-modules\/_site-buttons.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_site-buttons.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_site-buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/3-modules\/_site-content-article.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2462,7 +2502,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/main.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -2472,7 +2512,7 @@
 		"outputAbbreviatedPath": "\/assets\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false

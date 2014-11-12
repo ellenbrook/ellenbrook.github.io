@@ -11,10 +11,12 @@ redirect_from: http://ellenbrook.github.io/work
 {% for page in site.pages reversed %}
 	{% if page.type == 'example' %}	
 	<li class="site-content-list-item">
-		<div class="work-image-aside"><img src="/assets/img/{{ page.img }}.jpg" alt="{{ page.link-title }}"></div>
+		<div class="work-image-aside">
+			<a href="/detroit-web-designer-work/{{ page.img }}/" title="{{ page.title }}"><img src="/assets/img/{{ page.img }}.jpg" alt="{{ page.link-title }}"></a>
+		</div>
+
 		<h3><a href="/detroit-web-designer-work/{{ page.img }}/" title="{{ page.title }}">{{ page.link-title }}</a></h3>
 		<p>{{ page.meta }}</p>
-		<p><a href="/detroit-web-designer-work/{{ page.img }}/" title="{{ page.title }}">View project</a></p>
 	</li>
 	{% endif %}
 {% endfor %}
