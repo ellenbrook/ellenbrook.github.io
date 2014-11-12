@@ -1,13 +1,24 @@
 .site-content-list
 	list-style-type: none
 	padding-left: 0
+	font-size: $base-font-size/1.25
+
+	+media($large)
+		font-size: $base-font-size
 
 .site-content-list-item
 	+outer-container
 	border-bottom: 1px solid $text-color
 	padding: $padding 0 $padding*2 0
+	font-size: $base-font-size/1.25
+
+	+media($large)
+		font-size: $base-font-size
 
 	> h3
 		margin: $h3-margin-top 0 $h3-margin-bottom 0
-		font-size: $h3-font-size
+		font-size: $h3-font-size/1.25
 		line-height: $h3-line-height
+
+		+media($large)
+			font-size: $h3-font-size

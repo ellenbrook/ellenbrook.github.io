@@ -15,8 +15,11 @@
 
 	h3
 		margin: $h2-margin-top 0 $h2-margin-bottom 0
-		font-size: $h2-font-size
-		line-height: $h2-line-height
+		font-size: $h2-font-size/1.25
+		line-height: $h2-line-height/1.25
+
+		+media($large)
+			font-size: $h2-font-size
 
 	.content-image-container
 		+fill-parent
