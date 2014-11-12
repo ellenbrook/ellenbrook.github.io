@@ -207,7 +207,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 106326,
+		"initialSize": 90098,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-1.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -218,7 +218,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 115635,
+		"initialSize": 98818,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-2.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -229,42 +229,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 103973,
+		"initialSize": 87948,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-3.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 120848,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66367,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46167,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -284,7 +251,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 104238,
+		"initialSize": 90424,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/kw-glee\/kw-glee-1.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/kw-glee\/kw-glee-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -324,71 +291,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg": {
-		"fileType": 16384,
+	"\/_site\/assets\/js\/functions.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 207975,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-1.jpg",
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/functions.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47979,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 76478,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 173555,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23920,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55848,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/morning-pages\/morning-pages-small.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_site\/assets\/js\/jquery-2.1.1.min.js": {
 		"fileType": 64,
@@ -2574,7 +2486,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/sass-website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/wallet\/1-saddleback-leather-wallet-packaging.jpg": {
 		"fileType": 16384,
@@ -2585,7 +2497,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/wallet\/1-saddleback-leather-wallet-packaging.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/wallet\/2-saddleback-leather-wallet-side-one.jpg": {
 		"fileType": 16384,
@@ -2596,7 +2508,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/wallet\/2-saddleback-leather-wallet-side-one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/wallet\/3-saddleback-leather-wallet-side-two.jpg": {
 		"fileType": 16384,
@@ -2607,7 +2519,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/wallet\/3-saddleback-leather-wallet-side-two.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/wallet\/4-sadleback-leather-wallet-thickness.jpg": {
 		"fileType": 16384,
@@ -2618,7 +2530,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/wallet\/4-sadleback-leather-wallet-thickness.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png": {
 		"fileType": 32768,
@@ -2629,7 +2541,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/work-flow\/trello-screen-shot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/computer-screen.png": {
 		"fileType": 32768,
@@ -2640,7 +2552,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/computer-screen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/fuse-martial-arts.jpg": {
 		"fileType": 16384,
@@ -2651,7 +2563,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-1.jpg": {
 		"fileType": 16384,
@@ -2686,39 +2598,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 120848,
-		"inputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66367,
-		"inputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-medium.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46167,
-		"inputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/fuse-martial-arts\/fuse-martial-arts-small.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/kw-glee.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2728,7 +2607,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/kw-glee.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/kw-glee\/kw-glee-1.jpg": {
 		"fileType": 16384,
@@ -2750,7 +2629,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/kw-glee\/kw-glee-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/kw-glee\/kw-glee-3.jpg": {
 		"fileType": 16384,
@@ -2761,7 +2640,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/kw-glee\/kw-glee-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/morning-pages.jpg": {
 		"fileType": 16384,
@@ -2772,7 +2651,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/morning-pages.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/morning-pages\/morning-pages-1.jpg": {
 		"fileType": 16384,
@@ -2807,39 +2686,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/morning-pages\/morning-pages-large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 173555,
-		"inputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-large.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/morning-pages\/morning-pages-medium.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23920,
-		"inputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-medium.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/morning-pages\/morning-pages-small.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55848,
-		"inputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-small.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/morning-pages\/morning-pages-small.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2857,17 +2703,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/jquery-2.1.1.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/jquery-2.1.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
