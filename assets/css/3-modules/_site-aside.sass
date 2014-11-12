@@ -31,19 +31,6 @@
 		font-size: $h1-font-size
 		margin: $h1-margin-top 0 $h1-margin-bottom 0
 
-	.h1-logo
-		display: inline-block
-		max-height: 70px
-		max-width: 70px
-
-		+media($medium)
-			max-height: 100px
-			max-width: 100px
-
-		+media($large)
-			max-height: 100px
-			max-width: 100px
-
 .site-aside-nav
 	margin-bottom: $h1-margin-bottom
 
@@ -94,3 +81,7 @@
 
 		> a
 			font-size: 50px
+			color: transparentize(#BF3531, .5)
+
+			&:hover
+				color: transparentize(#BF3531, .1)

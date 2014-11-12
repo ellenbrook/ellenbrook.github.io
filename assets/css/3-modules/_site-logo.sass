@@ -1,0 +1,38 @@
+.h1-logo
+	display: inline-block
+	max-height: 70px
+	max-width: 70px
+
+	&:hover
+		.logo-1
+			fill: transparentize(#BF3531, .1)
+
+		.logo-2
+			fill: transparentize(#BF7331, .1)
+
+		.logo-3
+			fill: transparentize(#1E7073, .1)
+				
+	+media($medium)
+		max-height: 100px
+		max-width: 100px
+
+	+media($large)
+		max-height: 100px
+		max-width: 100px
+
+.logo-text
+	display: none
+
+
+.logo-1
+	transition: all 200ms ease-in
+	fill: transparentize(#BF3531, .5)
+
+.logo-2
+	transition: all 200ms ease-in
+	fill: transparentize(#BF7331, .5)
+
+.logo-3
+	transition: all 200ms ease-in
+	fill: transparentize(#1E7073, .5)
