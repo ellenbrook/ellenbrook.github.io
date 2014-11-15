@@ -1,61 +1,27 @@
+---
+layout:
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in site.posts %}
 <url>
-  <loc>http://ellenbrook.github.io/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
+<loc>http://ellenbrook.github.io{{ site.baseurl }}{{ post.url }}</loc>
+<priority>0.5</priority>
 </url>
+{% endfor %}
+{% for page in site.pages %}
 <url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-work/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
+<loc>http://ellenbrook.github.io{{ site.baseurl }}{{ page.url }}</loc>
+{% if page.url == "/index.html" %}
+<priority>1.0</priority>
+<changefreq>daily</changefreq>
+{% else %}
+{% if page.url contains "index.html" %}
+  <priority>0.1</priority>
+{% else %}
+  <priority>0.5</priority>
+{% endif %}
+{% endif %}
 </url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-resume/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-work/morning-pages/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-work/fuse-martial-arts/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-work/kw-glee/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/11/01/motivational-web-development-lectures/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/10/29/six-tips-to-optimize-your-web-development-workflow/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/10/05/saddleback-leather-id-wallet-review/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/09/14/how-to-install-sass/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/09/01/code-kit-you-need-it-trust-me/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
-<url>
-  <loc>http://ellenbrook.github.io/detroit-web-designer-blog/2014/08/28/I-made-the-move-to-jekyll/</loc>
-  <lastmod>2014-11-11T20:54:39+00:00</lastmod>
-</url>
+{% endfor %}
 </urlset>
