@@ -10,9 +10,9 @@
 		<meta itemprop="datePublished" content="{{ page.time }}"/>		
 
 		<article class="site-content-article" itemprop="articleBody">
-			<header class="site-content-article-header">
-				<h2 itemprop="headline">{{ page.link-title }}</h2>
-			</header>		
+		<header class="site-content-article-header" itemprop="name headline">
+			<h2 itemprop="name headline">{{ page.link-title }}</h2>
+		</header>		
 			{{ content }}
 
 			<p>{{ page.link-title }} makes use of 
@@ -24,7 +24,7 @@
 
 		<div class="computer-wrapper">
 			<img src="/assets/img/{{page.img}}/{{page.img}}-1.jpg" data-id="1" data-name="{{ page.img }}" alt="Screen shot of Morning Pages" class="computer-underlay">
-			<img src="/assets/img/computer-screen.png" class="computer-screen">
+			<img src="/assets/img/computer-screen.png" alt="Photo of a Macbook Pro" class="computer-screen">
 		</div>
 
 		<div class="image-swapper-thumbs">
