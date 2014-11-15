@@ -6,9 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description }}">
   <meta name="google-site-verification" content="32rBxCe3kkPskvZWvbFaztWKjQgumVi55SQEla5MUF0">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@_ellenbrook">
+  <meta name="twitter:title" content="{{ page.link-title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:creator" content="@_ellenbrook">
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="http://ellenbrook.github.io/assets/img/ellenbrook-logo.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.link-title}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://ellenbrook.github.io" />
+  <meta property="og:image" content="http://ellenbrook.github.io/assets/img/ellenbrook-logo.png" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:site_name" content="Eric Ellenbrook" />
+
   <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/assets/css/main.css" />
+  
   <script async src="//www.google-analytics.com/analytics.js"></script>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" class="{{ page.type }}">
