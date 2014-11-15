@@ -13,6 +13,7 @@ If you're anything like me, you're a bit scared of the command line or simply un
 Imagine having to change the size of a heading on the Contact page of your website. You'd have to scroll through your CSS file and even with the most well-documented and commented CSS it could take several seconds or even minutes to find the exact tag you're looking for. In Sass you can simple navigate to /css/pages/contact and open up base.scss, if you're using a structure similar to me and then make the change. This method is clearly much faster, much more efficient, and, in my opinion, the correct way to go about writing CSS. 
 
 Having said that, in order to get to the point where you're able to modularize your code, define variables and use Sass to the fullest, you have to learn how to install Sass. Earlier this year I decided that I was going to learn how to use a CSS pre-processor and when that time came I decided on Sass because it had the most popularity on Reddit as well as other development websites that I visit. I trust those guys and gals so went on over to [the official Sass website](http://sass-lang.com) and looked for the download link. The only problem was, this is all I was greeted with.
+
 <figure class="content-image-container">
 	<img src="/assets/img/blog-posts/sass-website.png" alt="How to install sass">
 </figure>
