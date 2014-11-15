@@ -21,9 +21,11 @@ I dragged my first folder (or project) into Codekit and it did it's magic.
 Codekit is smart. Really smart. The program essentially knows that you're trying to pre-process. Once you drag the project folder into the program, it automatically starts monitoring them for any changes. It will sit there quietly waiting for any change in a file. When that change happens, Codekit will automatically compile the Sass (or SCSS if that's your thing) into CSS for you.  
 
 You might be thinking "why do you need Codekit since Sass natively does that for you?" Understandable. Other than the fact that it can get you up and running Sass in the blink of an eye which is great for a noob like me, Codekit does much more than that. When you open the right pane of Codekit, you can see only a *small* amount of the awesomeness that Codekit contains. Take a look at the screen shot below. It's of Codekit's options panel for this very site's CSS.
+
 <figure class="content-image-container">
 	<img src="http://i.imgur.com/cX9xlyW.png" alt="Codekit's control panel">
 </figure>
+
 As you can see, Codekit automatically knows that I'm writing Sass. The first option that I have is the output style. I am given the options "Nested", "Compact", "Expanded", and "Compressed." Since I can't see any reason why I'd want to use anything other than Compressed, that's what I picked. It's essentially a minified version. Yeah, it automatically does it. [You can view the site's CSS here](http://ellenbrook.github.io/assets/css/main.css).
 
 Next I can choose the debug info which is essentially what shows up in my log if there are errors in compiling. I have this option turned off because Codekit gives a pretty good explanation as to what went wrong when it happens. I don't necessarily need a log but I'm sure someone might in some cases, though I can't think of any.
