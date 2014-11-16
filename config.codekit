@@ -90,6 +90,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -105,6 +114,39 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10153,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14208,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43383,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/assets\/img\/blog-posts\/sass-website.png": {
 		"fileType": 32768,
@@ -438,6 +480,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2014\/11\/13\/web-development-work-flow-tools\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/detroit-web-designer-blog\/2014\/11\/16\/the-old-english-d-is-ruining-design-in-detroit\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2014\/11\/16\/the-old-english-d-is-ruining-design-in-detroit\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2629,6 +2680,50 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-coney.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54565,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-coney.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-coney.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10153,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-surf-co.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14208,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43383,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/northern-d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/blog-posts\/sass-website.png": {
 		"fileType": 32768,
