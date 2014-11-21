@@ -119,7 +119,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 29886,
+		"initialSize": 29414,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-cast.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-cast.png",
 		"outputPathIsOutsideProject": 0,
@@ -456,15 +456,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
-		},
-	"\/_site\/code-examples\/google-plus-styled-header\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/code-examples\/google-plus-styled-header\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/detroit-web-designer-blog\/2014\/08\/28\/I-made-the-move-to-jekyll\/index.html": {
 		"fileType": 8192,
@@ -3071,7 +3062,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/code-examples\/google-plus-styled-header\/css\/style.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 2,
@@ -3089,7 +3080,7 @@
 	"\/code-examples\/google-plus-styled-header\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/code-examples\/google-plus-styled-header\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,

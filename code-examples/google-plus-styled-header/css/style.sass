@@ -1,13 +1,13 @@
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+    
 body
   font-family: 'Lato', sans-serif
   background: #e5e5e5
   margin: 0
   border: 0
-  
-  *
-    -moz-box-sizing: border-box
-    -webkit-box-sizing: border-box
-    box-sizing: border-box
 
 .container
   width: 480px
@@ -41,23 +41,31 @@ article
   transition: background 100ms ease-in
 
   .logo
+    position: relative
     height: 55px
     width: 55px
-    margin-left: -55px
     background: #DD4B39
     color: #fff
     text-align: center
     padding-top: .25em
     font-size: 2em
-    transition: all 100ms ease-in
+    transform: translateX(-100%)
+    transition: all 200ms ease-in
+
+  .slideIn
+    transition: all 200ms ease-in
+    transform: translateX(0)
 .on
+  position: fixed
+  top: 0
+  left: 0
   background: #fff
-  transition: background 100ms ease-in
+  transition: background 200ms ease-in
   
 ul
   display: inline-block
   margin-left: 65px
-  transition: all 100ms ease-in
+  transition: all 200ms ease-in
         
 li
   display: inline-block
