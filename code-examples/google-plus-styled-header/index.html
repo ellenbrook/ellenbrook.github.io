@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-	<div class="header">
+	<header class="header">
   		<h1>This is a header</h1>
-	</div>
+	</header>
 
 <div class="sub-header">
   	<div class="logo">G+</div>
@@ -63,12 +63,10 @@
 $window.scroll(function() {
     if ( $window.scrollTop() >= distance) {
         $subHeader.addClass("on");
-      
-        $logo.addClass("slideIn")
+        $logo.addClass("slideIn");
     } else {
       $subHeader.removeClass("on");
-      
-        $logo.removeClass("slideIn");
+      $logo.removeClass("slideIn");
     }
 });
 </script>
