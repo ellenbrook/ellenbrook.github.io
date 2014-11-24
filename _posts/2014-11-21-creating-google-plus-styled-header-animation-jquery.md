@@ -6,7 +6,7 @@ type: blog
 description: Google recently open sourced all of their material design icons. I'm using that as inspiration to teach you how to create a Google+ styled header animation.
 author: Eric Ellenbrook
 ---
-I've been using [Google+](https://plus.google.com/+EricEllenbrook/) more and more over the course of the past few months. Although it's not exactly the greatest of social networks, it's really a great tool to meet and network with other developers, designers, and tech-savvy individuals. Since I started using it I fell in love with the UI. One of the UI features that I like the most is the sticky sub-header that they employ on page scroll. I decided to give recreating it a shot.
+I've been using <a href="https://plus.google.com/+EricEllenbrook/" data-no-instant>Google+</a> more and more over the course of the past few months. Although it's not exactly the greatest of social networks, it's really a great tool to meet and network with other developers, designers, and tech-savvy individuals. Since I started using it I fell in love with the UI. One of the UI features that I like the most is the sticky sub-header that they employ on page scroll. I decided to give recreating it a shot.
 
 <!--more-->
 
@@ -208,6 +208,6 @@ $window.scroll(function() {
 });
 ~~~
 
-There you have it. The logo toggles the class *slideIn* and the sub-header toggles the class *on*. You can see a [fully functioning example on this page](/code-examples/google-plus-styled-header/). If you would like to offer any assistance on refactoring or have suggestions on how to make this better I'd love to read it in the comments below!
+There you have it. The logo toggles the class *slideIn* and the sub-header toggles the class *on*. You can see a <a href="/code-examples/google-plus-styled-header/" data-no-instant>fully functioning example on this page</a>. If you would like to offer any assistance on refactoring or have suggestions on how to make this better I'd love to read it in the comments below!
 
 
