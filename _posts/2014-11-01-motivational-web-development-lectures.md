@@ -18,6 +18,13 @@ Over the course of the last few minutes I've been compiling creative, design, an
 - [OOCSS and Preprocessors](https://www.youtube.com/watch?v=GhX8iPcDSsI) - Nicole Sullivan 
 - [SVG Is For Everyone](http://vimeo.com/99828116) - Chris Coyier 
 
+###JavaScript
+[What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts
+
+UI/UX
+[Behavior Is Our Medium](http://vimeo.com/3730382) - Robert Fabricant 
+[Stacking the Card Deck](http://vimeo.com/100662919?utm_content=bufferd8223&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) - Chris Tse
+
 ###Design
 - [When We Build](http://vimeo.com/34017777) - Wilson Miner
 - [Redesigning the Ad Industry](http://www.thedrum.com/news/2014/08/26/waitrose-implements-7-year-old-boys-brown-sauce-label-rebrand-nationwide) - Cindy Gallop
