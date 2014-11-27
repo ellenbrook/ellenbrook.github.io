@@ -45,7 +45,7 @@ I decided to keep this tutorial simple. I don't want to get too involved in the 
 
 Fairly straight forward so far. The idea for this post isn't to give you a tutorial on HTML or CSS, although we will delve into that a bit. The code above simply has a basic HTML page with a section and two articles. The articles are simply there in order to cause a page scroll.
 
-Next we'll style the page. I use Sass because I like how clean looking it is. If you'd like standard CSS then I suggest [viewing this link for the compiled css](/code-examples/google-plus-styled-header/css/style.css). Plus who likes adding a semi-colon after every single line if they don't have to? Not me!
+Next we'll style the page. I use Sass because I like how clean looking it is. Plus who likes adding a semi-colon after every single line if they don't have to? Not me! If you'd like standard CSS then I suggest [viewing this link for the compiled css](/code-examples/google-plus-styled-header/css/style.css).
 
 ~~~ css
 

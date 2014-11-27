@@ -106,15 +106,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -495,6 +486,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/_site\/code-examples\/google-plus-styled-header\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/code-examples\/google-plus-styled-header\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/detroit-web-designer-blog\/2014\/08\/28\/I-made-the-move-to-jekyll\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -572,6 +572,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2014\/11\/21\/creating-google-plus-styled-header-animation-jquery\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/detroit-web-designer-blog\/2014\/11\/27\/i-write-bad-css-and-i-am-going-to-stop\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2014\/11\/27\/i-write-bad-css-and-i-am-going-to-stop\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

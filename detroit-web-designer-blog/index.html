@@ -10,10 +10,10 @@ redirect_from: http://ellenbrook.github.io/blog
 <ul class="site-content-list">
 {% for post in site.posts %}
 	<li class="site-content-list-item">
-		<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.link-title }}</a></h3>
+		<h3><a href="{{ post.url }}" title="{{ post.title }}" data-no-instant>{{ post.link-title }}</a></h3>
 		<p>Posted by {{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
 		{{ post.excerpt }} 
-		<p><a href="{{ post.url }}" title="{{ post.title }}">Continue reading...</a></p>
+		<p><a href="{{ post.url }}" title="{{ post.title }}" data-no-instant>Continue reading...</a></p>
 	</li>
 {% endfor %}
 </ul>
