@@ -19,11 +19,11 @@ Over the course of the last few minutes I've been compiling creative, design, an
 - [SVG Is For Everyone](http://vimeo.com/99828116) - Chris Coyier 
 
 ###JavaScript Talks
-[What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts
+- [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts
 
 ###UI/UX Talks
-[Behavior Is Our Medium](http://vimeo.com/3730382) - Robert Fabricant 
-[Stacking the Card Deck](http://vimeo.com/100662919?utm_content=bufferd8223&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) - Chris Tse
+- [Behavior Is Our Medium](http://vimeo.com/3730382) - Robert Fabricant
+- [Stacking the Card Deck](http://vimeo.com/100662919?utm_content=bufferd8223&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) - Chris Tse
 
 ###Design Talks
 - [When We Build](http://vimeo.com/34017777) - Wilson Miner
