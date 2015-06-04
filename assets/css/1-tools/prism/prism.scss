@@ -1,3 +1,10 @@
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+php+php-extras */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
@@ -8,8 +15,7 @@ pre[class*="language-"] {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	font-size: .9em;
-	line-height: 1em;
+	line-height: 1.5;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -117,8 +123,12 @@ pre[class*="language-"] {
 	color: #e90;
 }
 
-.token.important {
+.token.important,
+.token.bold {
 	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
 }
 
 .token.entity {
