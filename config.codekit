@@ -131,6 +131,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2300,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10473,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/blog-posts\/custom-wordpress-admin-column\/custom-admin-column-in-wordpress.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -736,6 +758,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2015\/11\/03\/adding-advanced-custom-fields-to-admin-screen-column\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/detroit-web-designer-blog\/2015\/11\/14\/creating-bourbon-neats-grid-with-guide-guide\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/detroit-web-designer-blog\/2015\/11\/14\/creating-bourbon-neats-grid-with-guide-guide\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2998,6 +3029,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2300,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-example.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13387,
+		"inputAbbreviatedPath": "\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/bourbon-neat-guide-in-photoshop\/grid-settings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/blog-posts\/custom-wordpress-admin-column\/custom-admin-column-in-wordpress.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3007,7 +3060,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/blog-posts\/custom-wordpress-admin-column\/custom-admin-column-in-wordpress.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/blog-posts\/detroit-d-is-ruining-design-in-detroit\/detroit-cast.png": {
 		"fileType": 32768,
